@@ -1,0 +1,12 @@
+{
+  "background_color": "string",
+  "description": "string",
+  "font_color": "string",
+  "icon": "string",
+  "title": "string",
+  "link": "string",
+  "url": "string",
+  "close_url": "string",
+  "colors": [null],
+  "is_new_window": true
+}

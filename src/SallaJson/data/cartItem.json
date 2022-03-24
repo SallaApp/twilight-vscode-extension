@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "url": "string",
+  "quanitiy": 0,
+  "type": "string",
+  "product_id": 0,
+  "can_add_note": true,
+  "can_upload_file": true,
+  "options": [null],
+  "has_options": true,
+  "is_available": true,
+  "can_donate": true,
+  "donation": true,
+  "is_donation": true,
+  "attached_files": [null],
+  "attached_files_url": [null],
+  "price": 0
+}

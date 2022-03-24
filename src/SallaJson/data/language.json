@@ -1,0 +1,8 @@
+{
+  "name": "string",
+  "iso_code": "string",
+  "flag": "string",
+  "is_rtl": true,
+  "code": "string",
+  "dir": "string"
+}

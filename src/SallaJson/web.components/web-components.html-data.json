@@ -1,0 +1,342 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "salla-branches",
+      "attributes": [
+        {
+          "name": "branches",
+          "values": [{ "name": "any[]", "desc": "any[]" }]
+        },
+        {
+          "name": "browseProductsFrom",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "current",
+          "values": [{ "name": "number", "desc": "number" }]
+        },
+        {
+          "name": "displayAs",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "position",
+          "values": [{ "name": "string", "desc": "string" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-button",
+      "attributes": [
+        {
+          "name": "btnStyle",
+          "description": "Button Style",
+          "values": [
+            { "name": "primary", "desc": "primary" },
+            { "name": "outline", "desc": "outline" },
+            { "name": "outline-primary", "desc": "outline-primary" },
+            { "name": "danger", "desc": "danger" },
+            { "name": "link", "desc": "link" },
+            { "name": "link-danger", "desc": "link-danger" }
+          ]
+        },
+        {
+          "name": "disabled",
+          "description": "Is the button currently disabled",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "icon",
+          "description": "Circle Button with icon",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "loaderPosition",
+          "description": "If there is need to change loader position, pass the position",
+          "values": [
+            { "name": "start", "desc": "start" },
+            { "name": "end", "desc": "end" },
+            { "name": "center", "desc": "center" },
+            { "name": "after", "desc": "after" }
+          ]
+        },
+        {
+          "name": "loading",
+          "description": "Is the button currently loading",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "miniIcon",
+          "description": "Mini Circle Button with icon",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "wide",
+          "description": "Is the button wide",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-infinite-scroll",
+      "attributes": [
+        {
+          "name": "container",
+          "description": "Class selector to know the container if it's not the host `<salla-infinite-scroll>`",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "item",
+          "description": "Class selector to know list items",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "nextPage",
+          "description": "Next Page element",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "nextPageAutoload",
+          "description": "Is there is need to autoload next page when scroll `next-page-autoload|next-page.autoload`",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-localization-modal",
+      "attributes": [
+        {
+          "name": "currency",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "language",
+          "values": [{ "name": "string", "desc": "string" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-login-modal",
+      "attributes": [
+        {
+          "name": "isEmailAllowed",
+          "description": "Does the merchant allow to login using email",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "isEmailRequired",
+          "description": "Does the merchant require registration with email & mobile",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "isMobileAllowed",
+          "description": "Does the merchant/current location for visitor allow to login using mobile, By default outside KSA is `false`",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-modal",
+      "attributes": [
+        {
+          "name": "icon",
+          "description": "Icon css class, default for types `error` is `sicon-alert-engine`, `success` is `sicon-check-circle2`",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "iconStyle",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "imageIcon",
+          "description": "url of an image",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "isClosable",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "isLoading",
+          "description": "Show loading in the middle",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "noPadding",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "onModalClosed",
+          "values": [
+            {
+              "name": "((event: CustomEvent<any>) => void)",
+              "desc": "((event: CustomEvent<any>) => void)"
+            }
+          ]
+        },
+        {
+          "name": "onModalOpened",
+          "values": [
+            {
+              "name": "((event: CustomEvent<any>) => void)",
+              "desc": "((event: CustomEvent<any>) => void)"
+            }
+          ]
+        },
+        {
+          "name": "position",
+          "description": "The position of the modal",
+          "values": [
+            { "name": "top", "desc": "top" },
+            { "name": "middle", "desc": "middle" },
+            { "name": "bottom", "desc": "bottom" }
+          ]
+        },
+        {
+          "name": "subTitle",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "subTitleFirst",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "visible",
+          "description": "Show the modal on rendering",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "width",
+          "description": "The size of the modal",
+          "values": [
+            { "name": "xs", "desc": "xs" },
+            { "name": "sm", "desc": "sm" },
+            { "name": "md", "desc": "md" },
+            { "name": "lg", "desc": "lg" },
+            { "name": "xl", "desc": "xl" },
+            { "name": "full", "desc": "full" }
+          ]
+        }
+      ]
+    },
+    { "name": "salla-offer-modal" },
+    {
+      "name": "salla-product-availability",
+      "attributes": [
+        {
+          "name": "channels",
+          "description": "Notification channels",
+          "values": [
+            { "name": "sms", "desc": "sms" },
+            { "name": "mobile", "desc": "mobile" },
+            { "name": "sms,mobile", "desc": "sms,mobile" }
+          ]
+        },
+        {
+          "name": "isSubscribed",
+          "description": "is current user already subscribed",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "productId",
+          "description": "product id that can visitor subscribe to its availability notification",
+          "values": [{ "name": "number", "desc": "number" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-rating-modal",
+      "attributes": [
+        {
+          "name": "orderId",
+          "description": "The order id, to rate on its products & shipping",
+          "values": [{ "name": "number", "desc": "number" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-search",
+      "attributes": [
+        {
+          "name": "height",
+          "values": [{ "name": "number", "desc": "number" }]
+        },
+        {
+          "name": "inline",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "oval",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        }
+      ]
+    },
+    {
+      "name": "salla-tel-input",
+      "attributes": [
+        {
+          "name": "countryCode",
+          "description": "Current country_code",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "countryKey",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "mobile",
+          "description": "Current mobile number",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "onEnterClicked",
+          "values": [
+            {
+              "name": "((event: CustomEvent<any>) => void)",
+              "desc": "((event: CustomEvent<any>) => void)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "salla-verify-modal",
+      "attributes": [
+        {
+          "name": "autoReload",
+          "description": "should auto reloading the page after success verification",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        },
+        {
+          "name": "by",
+          "description": "Verifying method",
+          "values": [
+            { "name": "sms", "desc": "sms" },
+            { "name": "email", "desc": "email" }
+          ]
+        },
+        {
+          "name": "onVerified",
+          "description": "Event when success verification",
+          "values": [
+            {
+              "name": "((event: CustomEvent<any>) => void)",
+              "desc": "((event: CustomEvent<any>) => void)"
+            }
+          ]
+        },
+        {
+          "name": "url",
+          "description": "Submitting url, default will use salla api auth: `salla.api.auth.verify`",
+          "values": [{ "name": "string", "desc": "string" }]
+        },
+        {
+          "name": "withoutModal",
+          "description": "Should render component without modal",
+          "values": [{ "name": "boolean", "desc": "boolean" }]
+        }
+      ]
+    }
+  ]
+}

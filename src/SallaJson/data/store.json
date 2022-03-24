@@ -1,0 +1,39 @@
+{
+  "name": "string",
+  "username": "string",
+  "description": "string",
+  "slogan": "string",
+  "logo": "string",
+  "url": "string",
+  "icon": "string",
+  "contacts": {},
+  "social": {},
+  "settings": {
+    "auth": {
+      "email_allowed": true,
+      "mobile_allowed": true,
+      "is_email_required": true
+    },
+    "cart": {
+      "apply_coupon_enabled ": true
+    },
+    "product": {
+      "total_sold_enabled": true,
+      "fit_type ": "string"
+    },
+    "category": {
+      "testimonial_enabled": true
+    },
+    "tax": {
+      "number": "string",
+      "certificate": "string",
+      "taxable_prices_enabled": true
+    },
+    "rating": {
+      "store  ": true,
+      "shipping ": true,
+      "products": true
+    },
+    "arabic_numbers_enabled": true
+  }
+}

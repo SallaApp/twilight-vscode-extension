@@ -1,0 +1,12 @@
+{
+  "color": "string",
+  "text_color": "string",
+  "reverse_color": "string",
+  "reverse_text_color": "string",
+  "is_dark": "string",
+  "translations_hash": "string",
+  "darker_color": "string",
+  "lighter_color": "string",
+  "user": {},
+  "language": {}
+}

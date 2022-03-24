@@ -1,0 +1,6 @@
+{
+  "id": "integer",
+  "name": "string",
+  "value": "string",
+  "is_image": "boolean"
+}

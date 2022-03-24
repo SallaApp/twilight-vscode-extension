@@ -1,0 +1,15 @@
+<form class="form form--add-comment" onSubmit="return salla.form.submit('comment.send');">
+    {% hook anti_spam %}
+    <input name="type" type="hidden" value="{{  type }}">
+    <input name="id" type="hidden" value="{{  id }}">
+
+    <h2 class="mb-5 text-lg font-bold text-dark">{{ trans('blocks.comments.title') }}</h2>
+    
+    ${1}
+
+    <div class="text-end mb-4">
+        <salla-button type="submit" class="w-36" loader-position="end">
+        {{ trans('blocks.comments.submit') }}
+        </salla-button>
+    </div>
+</form>

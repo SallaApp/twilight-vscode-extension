@@ -1,0 +1,10 @@
+{
+  "is_home": "boolean",
+  "from_salla_app": "boolean",
+  "current_route_name": "string",
+  "currency": "string",
+  "is_rtl": "string",
+  "error": "string",
+  "store": {},
+  "theme": {}
+}

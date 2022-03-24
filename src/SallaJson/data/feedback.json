@@ -1,0 +1,21 @@
+{
+  "customer": {},
+  "rating": 0,
+  "reply": {},
+  "content": "string",
+  "status": 0,
+  "order_id": 0,
+  "created_at": "string",
+  "parent_id": 0,
+  "replies": [null],
+  "text": "string",
+  "is_replay": true,
+  "is_admin": true,
+  "avatar": "string",
+  "name": "string",
+  "draw_stars": "string",
+  "stars": 0,
+  "is_pending": true,
+  "session_id": 0,
+  "customer_id": 0
+}

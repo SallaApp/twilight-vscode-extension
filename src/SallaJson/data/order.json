@@ -1,0 +1,29 @@
+{
+  "id": 0,
+  "order_id": 0,
+  "created_at": "string",
+  "sub_total": "string",
+  "total": "string",
+  "cod_cost": "string",
+  "can_reorder": true,
+  "can_cancel": true,
+  "cancel_url": true,
+  "shipping": {
+    "id": 0,
+    "name": "string",
+    "number": "string",
+    "logo": "string",
+    "cost": "string"
+  },
+  "tax": {
+    "amount": 0,
+    "percent": 0
+  },
+  "status": {
+    "name": "string",
+    "icon": "string",
+    "color": "string"
+  },
+  "items": [],
+  "discounts": []
+}

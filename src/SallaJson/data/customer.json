@@ -1,0 +1,13 @@
+{
+  "first_name": "string",
+  "last_name": "string",
+  "avatar": "string",
+  "city": "string",
+  "country": "string",
+  "full_name": "string",
+  "mobile": "string",
+  "email": "string",
+  "gender": "string",
+  "birthday": "string",
+  "country_code": "string"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 0,
+  "name": "string",
+  "required": true,
+  "type": "string",
+  "details": "string",
+  "product": {},
+  "description": "string",
+  "not_same_day_order": true,
+  "availability_range": "string",
+  "from_date_time": "string",
+  "to_date_time": "string",
+  "show_condition": true,
+  "field_condition": true,
+  "condition_field_option_id": 0,
+  "associated_with_order_time": true,
+  "field_type": "string",
+  "option_type": "string",
+  "visibility_condition": "string",
+  "placeholder": "string"
+}

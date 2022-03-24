@@ -1,0 +1,38 @@
+{
+  "Salla asset": {
+    "prefix": "asset",
+    "body": "asset($1)",
+    "description": "Links any of html/css/js/images asset file(s) to template file",
+    "example": "<!-- CSS/JS -->\n<link rel=\"stylesheet\" href=\"{{ asset('dist/css/app.css') }}\">\n<!-- image -->\n<img src=\"{{ asset('images/img_loader.png') }}\" alt=\"loader\">\n"
+  },
+  "Salla trans": {
+    "prefix": "trans",
+    "body": "trans($1, $2, $3)",
+    "description": "Translates the passed key to the current store langauge. (More info in lang page later)",
+    "example": "<!-- simple key -->\n<span>{{ trans('common.titles.orders') }}</span>\n\n<!-- key with variable -->\n<span>{{ trans('pages.gift.sent_you_a_gift', ['name' => 'Mohammed']) }}</span>\n\n<!-- key with enforced locale/language -->\n<!-- this will always print the result of key in English even if the store has different default language -->\n<span>{{ trans('common.titles.orders', [], en) }}</span>"
+  },
+  "Salla pluralize": {
+    "prefix": "pluralize",
+    "body": "pluralize($1, $2)",
+    "description": "Similar to trans but it takes a $count argument to change the message in plural or singular form in store language.",
+    "example": "{{ pluralize('blocks.comments.comment', comments.total|number)|raw }} => <span>21</span> Comment"
+  },
+  "Salla link": {
+    "prefix": "link",
+    "body": "link($1, $2)",
+    "description": "Combine strings to generate a full link.",
+    "example": "link(\"page_url\", {by:\"test\"}) => https://my_store.com/page_url?by=test"
+  },
+  "Salla is_link": {
+    "prefix": "is_link",
+    "body": "is_link($1)",
+    "description": "Checks if the current link matches the passed pattern.",
+    "example": "<!-- current link is /products/core-i7-laptop -->\n<p>{{ is_link('product') }}</p><!-- Note there is no 's' in product -->\n<!-- #returns TRUE -->\n<p>{{ is_link('products') }}</p><!-- Note the 's' in products -->\n<!-- #returns TRUE -->\n<p>{{ is_link('category') }}</p>\n<!-- #returns FALSE -->"
+  },
+  "Salla old": {
+    "prefix": "old",
+    "body": "old($1)",
+    "description": "This helper function keeps previous input from one request during the next request. This feature is particularly useful for re-populating forms after detecting validation errors",
+    "example": "<input type=\"text\" name=\"username\" value=\"{{ old('username') }}\">"
+  }
+}
