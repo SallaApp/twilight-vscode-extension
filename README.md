@@ -1,57 +1,64 @@
-# Welcome to Salla twig theme one autocomplete vscode extension
+# ✨ Introduction
 
-## how to run
+Twilight VS Code Extension contains a set of Code Snippets for the Twilight Web Components, as it provides autocomplete and intellisense when working in Visual Studio Code.
 
-to run the extension just clone this repo then open the repo in vscode and (press F5) it will open another window to test your ext .
-after that you can create a (\*.twig) file inside the development window then start writing your code to test salla vscode extension
+![GIF]()
 
-## structure
+## ⬇️ Installation
 
-### Folder hover
+Twilight VS Code can be installed from [Visual Studio Code Marketplace: Twilight VS Code Extension]().
 
-filters.json : define a range of filter functions
-functions.json : define a range of useful functions
-salla.functions.json : define a range of useful salla functions
-
-### Folder SallaJson/data
-
-define a set of predefined data structure to use with salla twig theme
-
-### Folder SallaJson/web.components
-
-define a set of pre defined web.components to use with salla twig theme (when adding a new web component you need to add it to the json file with properties)
+It can also be installed by typing the following in the command line:
 
 ```
-.
-├── hover
-│   ├── filters.json
-│   ├── functions.json
-│   ├── salla.filters.json
-│   └── twig.json
-├── languages
-│   └── twig.configuration.json
-├── SallaJson
-│   ├── components.json
-│   ├── data
-│   │   ├── advertisement.json
-│   │   ├── brand.json
-│   │   ├── cartItem.json
-│   │   ├── cart.json
-│   │   ├── category.json
-│   │   ├── contact.json
-│   │   ├── currency.json
-│   │   ├── ...
-│   ├── hooks.json
-│   ├── snippets.twig
-│   │   └── form.twig
-│   │   └── ...
-│   └── web.components
-│       └── web-components.html-data.json
-├── snippets
-│   ├── salla.snippets.json
-│   └── snippets.json
-└── syntaxes
-    └── twig.tmLanguage
+ext install sallaapp.twilight-vscode
 ```
 
-**Enjoy!**
+## 📍 Features
+
+- 🎨 Code Intellesense
+- ⌨️ Syntax Auto-completion
+
+## 📕 Documentation
+
+For full documentation of the Twilight Theme Engine, see the [Official Documentation]().
+
+## 🧵 Usage
+
+If you're familiar with the concept of Components or have read the documentation, consider the following scenario:
+
+Let's say you want to add a Button component to your project. You can do this by typing:
+
+```html
+<!-- Salla Default Button with no props -->
+<salla-button>Hello World</salla-button>
+```
+
+### Components
+
+Salla Twilight Web Components support over 10 different components, including but not limited to:
+
+<!--
+- [Branches]()
+- [Infinite Scroll]()
+- [Login]()
+- [Modal]()
+- [Search]() -->
+
+| [Branches]() | [Infinite Scroll]() | [Login]() | [Modal]() | [Search]() |
+| ------------ | ------------------- | --------- | --------- | ---------- |
+
+> Explore more details on the Twilight Web Components via: [LINK]()
+
+## 🚀 Release Notes
+
+For detailed release notes, check out the [ChangeLog tab]().
+
+## 👥 Support
+
+Contact Salla Support Team via:
+
+| [Telegram Bot]() | [Support Email]() | [Salla Partners Portal]() |
+| ---------------- | ----------------- | ------------------------- |
+
+Have questions/suggestions? You are more than welcomed to join the [Salla Developer Community on Teleragm](t.me/salladev)
