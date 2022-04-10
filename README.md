@@ -18,8 +18,8 @@ ext install sallaapp.twilight-vscode
 
 - 🎨 Code Intellesense
 - ⌨️ Syntax Auto-completion
-- ⌨️ Snippets
-- ⌨️ Salla web compoenetes
+- 🏷 Featured Snippets
+- 🕸 Support for Salla Web Compoenetes
 
 ## 📕 Documentation
 
@@ -60,7 +60,7 @@ For detailed release notes, check out the [ChangeLog tab]().
 
 Contact Salla Support Team via:
 
-| [Telegram Bot]() | [Support Email]() | [Salla Partners Portal]() |
-| ---------------- | ----------------- | ------------------------- |
+| [Telegram Bot](https://t.me/SallaSupportBot) | [Support Email](mailto:support@salla.dev) | [Salla Partners Portal](https://salla.partners/) |
+| -------------------------------------------- | ----------------------------------------- | ------------------------------------------------ |
 
 Have questions/suggestions? You are more than welcomed to join the [Salla Developer Community on Teleragm](t.me/salladev)
