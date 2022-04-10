@@ -1,6 +1,6 @@
 # ✨ Introduction
 
-Twilight VS Code Extension contains a set of Code Snippets for the Twilight Web Components, as it provides autocomplete and intellisense when working in Visual Studio Code.
+Twilight VS Code Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
 ![GIF]()
 
@@ -18,6 +18,8 @@ ext install sallaapp.twilight-vscode
 
 - 🎨 Code Intellesense
 - ⌨️ Syntax Auto-completion
+- ⌨️ Snippets
+- ⌨️ Salla web compoenetes
 
 ## 📕 Documentation
 
@@ -31,7 +33,7 @@ Let's say you want to add a Button component to your project. You can do this by
 
 ```html
 <!-- Salla Default Button with no props -->
-<salla-button>Hello World</salla-button>
+<salla-button [AUTOCOMPELETE]
 ```
 
 ### Components
