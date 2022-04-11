@@ -6,7 +6,7 @@ Twilight VS Code Extension contains a set of featuers for the Twilight Web Compo
 
 ## ⬇️ Installation
 
-Twilight VS Code can be installed from [Visual Studio Code Marketplace: Twilight VS Code Extension]().
+Twilight VS Code can be installed from [Visual Studio Code Marketplace]().
 
 It can also be installed by typing the following in the command line:
 
