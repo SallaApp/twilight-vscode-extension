@@ -19,7 +19,7 @@ ext install sallaapp.twilight-vscode
 - 🎨 Code Intellesense
 - ⌨️ Syntax Auto-completion
 - 🏷 Featured Snippets
-- 🕸 Support for Salla Web Compoenetes
+- 🕸 Full-fledged Salla Web Compoenetes
 
 ## 📕 Documentation
 
@@ -33,7 +33,7 @@ Let's say you want to add a Button component to your project. You can do this by
 
 ```html
 <!-- Salla Default Button with no props -->
-<salla-button [AUTOCOMPELETE]
+<salla-button>Hello World👋</salla-button> 
 ```
 
 ### Components
