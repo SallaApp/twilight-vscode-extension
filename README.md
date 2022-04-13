@@ -2,7 +2,7 @@
 
 Twilight VS Code Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
-![GIF]()
+![GIF](https://i.ibb.co/1K3J59J/Clean-Shot-2022-04-11-at-13-30-07.gif)
 
 ## ⬇️ Installation
 
@@ -33,7 +33,7 @@ Let's say you want to add a Button component to your project. You can do this by
 
 ```html
 <!-- Salla Default Button with no props -->
-<salla-button>Hello World👋</salla-button> 
+<salla-button>Hello World👋</salla-button>
 ```
 
 ### Components
