@@ -60,7 +60,7 @@ For detailed release notes, check out the [ChangeLog tab]().
 
 Contact Salla Support Team via:
 
-| [Telegram Bot](https://t.me/SallaSupportBot) | [Support Email](mailto:support@salla.dev) | [Salla Partners Portal](https://salla.partners/) |
+| [Telegram Bot](https://t.me/SallaSupportBot) | [Support Email](mailto:support@salla.dev) | [Salla Partners Portal](https://salla.partners/contact) |
 | -------------------------------------------- | ----------------------------------------- | ------------------------------------------------ |
 
 Have questions/suggestions? You are more than welcomed to join the [Salla Developer Community on Teleragm](t.me/salladev)
