@@ -50,27 +50,34 @@
   </ol>
 </details>
 
+<br>
+
 # ✨ Overview
 
-Twilight VS Code Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
+<br>
+
+Twilight VSCode Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
 ![GIF](https://i.ibb.co/1K3J59J/Clean-Shot-2022-04-11-at-13-30-07.gif)
 
 ## 🚀 Getting Started
+<br>
 
 ### ⬇️ Installation
+<br>
 
-Twilight VS Code can be installed from [Visual Studio Code Marketplace]().
+Twilight VSCode can be installed from [Visual Studio Code Marketplace](). It can also be installed by executing the following in the VSCode Command Line:
 
-It can also be installed by typing the following in the command line:
+<br>
 
-```
+```bash
 ext install sallaapp.twilight-vscode
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### 📍 Features
+<br>
 
 - 🎨 Code Intellesense
 - ⌨️ Syntax Auto-completion
@@ -81,25 +88,32 @@ ext install sallaapp.twilight-vscode
 
 ### 📕 Documentation
 
-For full documentation of the Twilight Theme Engine, see the [Official Documentation]().
+<br>
+
+For full documentation of the Twilight Theme, see the [Official Documentation]().
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 🧵 Usage
 
-If you're familiar with the concept of Components or have read the documentation, consider the following scenario:
+<br>
 
-Let's say you want to add a Button component to your project. You can do this by typing:
+If you're familiar with the concept of Web Components or have read the documentation, consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing:
 
 ```html
 <!-- Salla Default Button with no props -->
 <salla-button>Hello World👋</salla-button>
 ```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### ⚡️ Components
 
+<br>
+
 Salla Twilight Web Components support over 10 different components, which are [well-documented]() with easy-to-follow examples, including but not limited to:
+
+<br>
 
 <!--
 - [Branches]()
@@ -121,17 +135,23 @@ Salla Twilight Web Components support over 10 different components, which are [w
 
 ## 🚀 Release Notes
 
+<br>
+
 For detailed release notes, check out the [ChangeLog tab]().
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 👥 Support
 
+<br>
+
 The team is always here to help you. Happen to face an issue? Want to report a bug? You can submit one here on Github using the [Issue Tracker](https://github.com/SallaApp/twilight-vscode-extension/issues/new). If you still have any questions, please contact us via the [Telegram Bot](https://t.me/SallaSupportBot) or join in the Global Developer Community on [Telegram](https://t.me/salladev).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 💬 Contributing
+
+<br>
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
 Any contributions you make are **greatly appreciated**.
@@ -149,10 +169,16 @@ You can also simply open an issue with the tag "enhancement". Don't forget to gi
 
 ## 🌐 Credits
 
+<br>
+
 - [Salla](https://github.com/sallaApp)
 - [All Contributors](../../contributors)
 
+<br>
+
 ## 📝 License
+
+<br>
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
