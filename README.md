@@ -1,10 +1,64 @@
-# ✨ Introduction
+<div id="top"></div>
+
+<br />
+<div align="center"> 
+  <a href="https://salla.dev"> 
+    <img src="https://salla.dev/wp-content/themes/salla-portal/dist/img/salla-logo.svg" alt="Logo" width="80" height="80"> 
+  </a>
+  <h1 align="center">Twilight VS Code Extension</h1>
+  <p align="center">
+    Your easy, creative way to use Salla's Twilight Theme Engine in VS Code.
+    <br />
+    <a href="https://salla.dev/"><strong>Explore our blogs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/SallaApp/twilight-vscode-extension/issues/new">Report Bug</a> · 
+    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details open>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#overview">Overview</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li>
+      <a href="#features">Features</a>
+    </li>
+    <li>
+      <a href="#documentation">Documentation</a>
+    </li>
+      </ul>
+    </li>
+    <li>
+        <a href="#usage">Usage</a>
+        <ul>
+            <li><a href="#easy-mode-">Components</a></li>
+        </ul>
+    </li>
+    <li><a href="#release-notes">Release Notes</a></li>  
+    <li><a href="#support">Support</a></li>  
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#credits">Credits</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+# ✨ Overview
 
 Twilight VS Code Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
 ![GIF](https://i.ibb.co/1K3J59J/Clean-Shot-2022-04-11-at-13-30-07.gif)
 
-## ⬇️ Installation
+## 🚀 Getting Started
+
+### ⬇️ Installation
 
 Twilight VS Code can be installed from [Visual Studio Code Marketplace]().
 
@@ -14,16 +68,22 @@ It can also be installed by typing the following in the command line:
 ext install sallaapp.twilight-vscode
 ```
 
-## 📍 Features
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### 📍 Features
 
 - 🎨 Code Intellesense
 - ⌨️ Syntax Auto-completion
 - 🏷 Featured Snippets
 - 🕸 Full-fledged Salla Web Components
 
-## 📕 Documentation
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### 📕 Documentation
 
 For full documentation of the Twilight Theme Engine, see the [Official Documentation]().
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 🧵 Usage
 
@@ -35,10 +95,11 @@ Let's say you want to add a Button component to your project. You can do this by
 <!-- Salla Default Button with no props -->
 <salla-button>Hello World👋</salla-button>
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Components
+### ⚡️ Components
 
-Salla Twilight Web Components support over 10 different components, including but not limited to:
+Salla Twilight Web Components support over 10 different components, which are [well-documented]() with easy-to-follow examples, including but not limited to:
 
 <!--
 - [Branches]()
@@ -47,20 +108,52 @@ Salla Twilight Web Components support over 10 different components, including bu
 - [Modal]()
 - [Search]() -->
 
-| [Branches]() | [Infinite Scroll]() | [Login]() | [Modal]() | [Search]() |
-| ------------ | ------------------- | --------- | --------- | ---------- |
+| Component | Description |
+|----------|-------------|
+| [Branches]()        | Header component that redirects merchants to a specific branch owned by the store |
+| [Infinite Scroll]() | Items that can be scrolled infinitely. |
+| [Login]()           | Ready-made sign-in/sign-up modal. |
+| [Modal]()           | Modal dialoug that momentarily prevents interactions|
+| [Search]()          | Conduct the search capbility within the store
 
-> Explore more details on the Twilight Web Components via: [LINK]()
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 🚀 Release Notes
 
 For detailed release notes, check out the [ChangeLog tab]().
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## 👥 Support
 
-Contact Salla Support Team via:
+The team is always here to help you. Happen to face an issue? Want to report a bug? You can submit one here on Github using the [Issue Tracker](https://github.com/SallaApp/twilight-vscode-extension/issues/new). If you still have any questions, please contact us via the [Telegram Bot](https://t.me/SallaSupportBot) or join in the Global Developer Community on [Telegram](https://t.me/salladev).
 
-| [Telegram Bot](https://t.me/SallaSupportBot) | [Support Email](mailto:support@salla.dev) | [Salla Partners Portal](https://salla.partners/contact) |
-| -------------------------------------------- | ----------------------------------------- | ------------------------------------------------ |
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Have questions/suggestions? You are more than welcomed to join the [Salla Developer Community on Teleragm](t.me/salladev)
+## 💬 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
+Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
+You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 🌐 Credits
+
+- [Salla](https://github.com/sallaApp)
+- [All Contributors](../../contributors)
+
+## 📝 License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
