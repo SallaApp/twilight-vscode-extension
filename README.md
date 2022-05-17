@@ -58,7 +58,7 @@
 
 Twilight VSCode Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
-<IMG SRC="https://stoplight.io/api/v1/projects/cHJqOjEyNDE5Ng/images/IpnvFbGO4XE" width=800>
+![Salla App Create Command](https://i.ibb.co/PhrkmR0/ezgif-com-gif-maker.gif)
 
 ## 🚀 Getting Started
 <br>
