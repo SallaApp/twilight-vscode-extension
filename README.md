@@ -58,7 +58,7 @@
 
 Twilight VSCode Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
-![GIF](https://i.ibb.co/1K3J59J/Clean-Shot-2022-04-11-at-13-30-07.gif)
+![GIF](https://i.ibb.co/DGHd3nw/ezgif-com-gif-maker-gif-1.gif)
 
 ## 🚀 Getting Started
 <br>
@@ -66,7 +66,7 @@ Twilight VSCode Extension contains a set of featuers for the Twilight Web Compon
 ### ⬇️ Installation
 <br>
 
-Twilight VSCode can be installed from [Visual Studio Code Marketplace](). It can also be installed by executing the following in the VSCode Command Line:
+Twilight VSCode can be installed from the  [Visual Studio Code Marketplace](). It can also be installed by executing the following in the VSCode Command Line:
 
 <br>
 
@@ -98,7 +98,7 @@ For full documentation of the Twilight Theme, see the [Official Documentation]()
 
 <br>
 
-If you're familiar with the concept of Web Components or have read the documentation, consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing:
+If you're familiar with the concept of Web Components or have read the [official documentation](), consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing:
 
 ```html
 <!-- Salla Default Button with no props -->
@@ -111,20 +111,16 @@ If you're familiar with the concept of Web Components or have read the documenta
 
 <br>
 
-Salla Twilight Web Components support over 10 different components, which are [well-documented]() with easy-to-follow examples, including but not limited to:
+Salla Twilight Web Components support over 10 different components, which are [well-documented]() with easy-to-follow examples:
 
 <br>
 
-<!--
-- [Branches]()
-- [Infinite Scroll]()
-- [Login]()
-- [Modal]()
-- [Search]() -->
-
 | Component | Description |
 |----------|-------------|
+| [Add Product]()        | Add Product |
 | [Branches]()        | Header component that redirects merchants to a specific branch owned by the store |
+| [Button]()        | Button |
+| [Conditional Fields]()        | Conditional Fields |
 | [Infinite Scroll]() | Items that can be scrolled infinitely. |
 | [Login]()           | Ready-made sign-in/sign-up modal. |
 | [Modal]()           | Modal dialoug that momentarily prevents interactions|
