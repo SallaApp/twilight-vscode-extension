@@ -58,19 +58,17 @@
 
 Twilight VSCode Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
-<<<<<<< HEAD
 ![Salla Autocomplete Command](https://i.ibb.co/PhrkmR0/ezgif-com-gif-maker.gif)
-=======
-![demo](https://i.ibb.co/PhrkmR0/ezgif-com-gif-maker.gif)
->>>>>>> 47a08eb9df508a5ae86011c1e29a0e5203c5a2d3
 
 ## 🚀 Getting Started
+
 <br>
 
 ### ⬇️ Installation
+
 <br>
 
-Twilight VSCode can be installed from the  [Visual Studio Code Marketplace](). It can also be installed by executing the following in the VSCode Command Line:
+Twilight VSCode can be installed from the [Visual Studio Code Marketplace](). It can also be installed by executing the following in the VSCode Command Line:
 
 <br>
 
@@ -81,6 +79,7 @@ ext install sallaapp.twilight-vscode
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### 📍 Features
+
 <br>
 
 - 🎨 Code Intellesense
@@ -119,17 +118,20 @@ Salla Twilight Web Components support over 10 different components, which are [w
 
 <br>
 
-| Component | Description |
-|----------|-------------|
-| [Add Product]()        | Add Product |
-| [Branches]()        | Header component that redirects merchants to a specific branch owned by the store |
-| [Button]()        | Button |
-| [Conditional Fields]()        | Conditional Fields |
-| [Infinite Scroll]() | Items that can be scrolled infinitely. |
-| [Login]()           | Ready-made sign-in/sign-up modal. |
-| [Modal]()           | Modal dialoug that momentarily prevents interactions|
-| [Search]()          | Conduct the search capbility within the store
-
+| Component                | Description                                                                                                                      |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| [Branches]()             | Header component that redirects merchants to a specific branch owned by the store                                                |
+| [Button]()               | Button component that is customizable                                                                                            |
+| [Infinite Scroll]()      | Items that can be scrolled infinitely.                                                                                           |
+| [Localization]()         | Modal dialoug which Merchants can select languages/currencies from.                                                              |
+| [Login]()                | Ready-made sign-in/sign-up modal.                                                                                                |
+| [Modal]()                | Modal dialoug that momentarily prevents interactions                                                                             |
+| [Offer]()                | Modal dialoug which Merchants can select offers related to product(s) they added to the cart                                     |
+| [Product Availability]() | Modal dialoug where registered merchants can be notified when a product is available                                             |
+| [Rating]()               | Modal dialoug prompting Merchants to rate a store/product/shipping company after an order purchase has been completed            |
+| [Search]()               | Conduct the search capbility within the store                                                                                    |
+| [Tel Input]()            | Input field for accepting Merchants' phone number, with country key/code prefix                                                  |
+| [Verify]()               | Dependent Salla Login component where Merchants who have updated their Profile details are followed up with a verification modal |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
