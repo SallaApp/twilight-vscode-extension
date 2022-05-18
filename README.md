@@ -101,7 +101,7 @@ For full documentation of the Twilight Theme, see the [Official Documentation]()
 
 <br>
 
-If you're familiar with the concept of Web Components or have read the [official documentation](), consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing:
+If you're familiar with the concept of Web Components or have read the [official documentation](), consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
 
 ```html
 <!-- Salla Default Button with no props -->
