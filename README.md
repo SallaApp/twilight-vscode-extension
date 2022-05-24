@@ -120,14 +120,18 @@ Salla Twilight Web Components support over 10 different components, which are [w
 
 | Component                | Description                                                                                                                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| [Add Product]()          | Controllable behaviours of the Button Component to extend the Add Product capability components                                  |
 | [Branches]()             | Header component that redirects merchants to a specific branch owned by the store                                                |
 | [Button]()               | Button component that is customizable                                                                                            |
 | [Infinite Scroll]()      | Items that can be scrolled infinitely.                                                                                           |
+| [Installment]()          | Allow for paying in installments based on supported payment options                                                              |
 | [Localization]()         | Modal dialoug which Merchants can select languages/currencies from.                                                              |
 | [Login]()                | Ready-made sign-in/sign-up modal.                                                                                                |
 | [Modal]()                | Modal dialoug that momentarily prevents interactions                                                                             |
 | [Offer]()                | Modal dialoug which Merchants can select offers related to product(s) they added to the cart                                     |
 | [Product Availability]() | Modal dialoug where registered merchants can be notified when a product is available                                             |
+| [Quantity Input]()       | Button counter to specify the needed quantity of a specific product                                                            |
+| [Rating Stars]()         | Display a form of rating scale using a star glyph or similar typographic symbol                                                  |
 | [Rating]()               | Modal dialoug prompting Merchants to rate a store/product/shipping company after an order purchase has been completed            |
 | [Search]()               | Conduct the search capbility within the store                                                                                    |
 | [Tel Input]()            | Input field for accepting Merchants' phone number, with country key/code prefix                                                  |
