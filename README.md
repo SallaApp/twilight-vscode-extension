@@ -54,11 +54,13 @@
 
 # ✨ Overview
 
-Twilight VSCode Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
+Twilight VSCode Extension enhances the development experience by providing a set of featuers for the Twilight JS Web Components, such as autocomplete, code snippets and intellisense, when working in Visual Studio Code.
 
 <img src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" data-canonical-src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" width="800px" height="100%" />
 
 ## 🚀 Getting Started
+
+<br>
 
 ### ⬇️ Installation
 
@@ -72,12 +74,10 @@ ext install sallaapp.twilight-vscode
 
 ### 📍 Features
 
-Salla's twilight theme engine has a range of rich features that includes:
-
-<br>
+Salla's twilight VSCode extension has a range of rich features that includes:
 
 - Intellesense suggestions for the JS Web Components
-- Syntax Auto-completion
+- Syntax and Code Auto-completion
 - Featured Snippets
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -103,24 +103,25 @@ If you're familiar with the concept of Web Components or have read the official 
 
 Salla Twilight Web Components support over 10 different components, which are well-documented with easy-to-follow examples:
 
-| Component                | Description                                                                                                                      |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| [Add Product]()          | Controllable behaviours of the Button Component to extend the Add Product capability components                                  |
-| [Branches]()             | Header component that redirects merchants to a specific branch owned by the store                                                |
-| [Button]()               | Button component that is customizable                                                                                            |
-| [Infinite Scroll]()      | Items that can be scrolled infinitely.                                                                                           |
-| [Installment]()          | Allow for paying in installments based on supported payment options                                                              |
-| [Localization]()         | Modal dialoug which Merchants can select languages/currencies from.                                                              |
-| [Login]()                | Ready-made sign-in/sign-up modal.                                                                                                |
-| [Modal]()                | Modal dialoug that momentarily prevents interactions                                                                             |
-| [Offer]()                | Modal dialoug which Merchants can select offers related to product(s) they added to the cart                                     |
-| [Product Availability]() | Modal dialoug where registered merchants can be notified when a product is available                                             |
-| [Quantity Input]()       | Button counter to specify the needed quantity of a specific product                                                              |
-| [Rating Stars]()         | Display a form of rating scale using a star glyph or similar typographic symbol                                                  |
-| [Rating]()               | Modal dialoug prompting Merchants to rate a store/product/shipping company after an order purchase has been completed            |
-| [Search]()               | Conduct the search capbility within the store                                                                                    |
-| [Tel Input]()            | Input field for accepting Merchants' phone number, with country key/code prefix                                                  |
-| [Verify]()               | Dependent Salla Login component where Merchants who have updated their Profile details are followed up with a verification modal |
+| Component                                                                         | Code Tag                     | Description                                                                                                                      |
+| --------------------------------------------------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| [Add Product](docs/9.%20Twilight%20components/Add%20Product.md)                   | `x`                          | Controllable behaviours of the Button Component to extend the Add Product component                                              |
+| [Branches](docs/9.%20Twilight%20components/Branches.md)                           | `salla-branches`             | Header component that redirects merchants to a specific branch owned by the store                                                |
+| [Button](docs/9.%20Twilight%20components/Button.md)                               | `salla-button`               | Customizable Button component                                                                                                    |
+| [Infinite Scroll](docs/9.%20Twilight%20components/Infinite%20Scroll.md)           | `salla-infinite-scroll`      | Items that can be scrolled infinitely.                                                                                           |
+| [Installment](docs/9.%20Twilight%20components/Installment.md)                     | `x`                          | Allow for paying in installments based on supported payment options                                                              |
+| [Localization](docs/9.%20Twilight%20components/Localization.md)                   | `salla-localization-modal`   | Modal dialoug which Merchants can select languages/currencies from.                                                              |
+| [Login](docs/9.%20Twilight%20components/Login.md)                                 | `salla-login-modal`          | Ready-made sign-in/sign-up modal.                                                                                                |
+| [Modal](docs/9.%20Twilight%20components/Modal.md)                                 | `salla-modal`                | Modal dialoug that momentarily prevents interactions                                                                             |
+| [Offer](docs/9.%20Twilight%20components/Offer.md)                                 | `salla-offer-modal`          | Modal dialoug which Merchants can select offers related to product(s) they added to the cart                                     |
+| [Product Availability](docs/9.%20Twilight%20components/Product%20Availability.md) | `salla-product-availability` | Modal dialoug where registered merchants can be notified when a product is available                                             |
+| [Quantity Input](docs/9.%20Twilight%20components/Quantity%20Input.md)             | `x`                          | Button counter to specify the needed quantity of a specific product                                                              |
+| [Rating Stars](docs/9.%20Twilight%20components/Rating%20Stars.md)                 | `x`                          | Display a form of rating scale using a star glyph or similar typographic symbol                                                  |
+| [Rating](docs/9.%20Twilight%20components/Rating.md)                               | `salla-rating-modal`         | Modal dialoug prompting Merchants to rate a store/product/shipping company after an order purchase has been completed            |
+| [Search](docs/9.%20Twilight%20components/Search.md)                               | `salla-search`               | Conduct the search capbility within the store                                                                                    |
+| [Tel Input](docs/9.%20Twilight%20components/Tel%20Input.md)                       | `salla-tel-input`            | Input field for accepting Merchants' phone number, with country key/code prefix                                                  |
+| [Verify](docs/9.%20Twilight%20components/Verify.md)                               | `salla-verify`               | Dependent Salla Login component where Merchants who have updated their Profile details are followed up with a verification modal |
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
