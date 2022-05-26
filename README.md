@@ -64,11 +64,7 @@ Twilight VSCode Extension enhances the development experience by providing a set
 
 ### Installation
 
-Twilight VSCode can be installed from the Visual Studio Code Marketplace. It can also be installed by executing the following in the VSCode Command Line:
-
-```bash
-ext install sallaapp.twilight-vscode
-```
+Twilight VSCode can be easily installed from the Visual Studio Code Marketplace.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
