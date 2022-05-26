@@ -90,7 +90,7 @@ If you're familiar with the concept of Web Components or have read the official 
 
 ### Components
 
-Salla Twilight Web Components in essence support over 10 different components, which are well-documented with easy-to-follow examples:
+Salla Twilight Web Components in essence support >10 different components, which are well-documented with easy-to-follow examples:
 
 | Component                                                                         | Code Tag                     | Description                                                                                                                      |
 | --------------------------------------------------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
