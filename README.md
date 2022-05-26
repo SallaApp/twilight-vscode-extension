@@ -151,6 +151,8 @@ You can also simply open an issue with the tag "enhancement". Don't forget to gi
 
 - [Salla](https://github.com/sallaApp)
 - [All Contributors](../../contributors)
+  
+<br>
 
 ## License
 
