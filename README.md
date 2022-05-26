@@ -52,17 +52,17 @@
 
 <br>
 
-# ✨ Overview
+# Overview
 
 Twilight VSCode Extension enhances the development experience by providing a set of featuers for the Twilight JS Web Components, such as autocomplete, code snippets and intellisense, when working in Visual Studio Code.
 
 <img src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" data-canonical-src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" width="800px" height="100%" />
 
-## 🚀 Getting Started
+## Getting Started
 
 <br>
 
-### ⬇️ Installation
+### Installation
 
 Twilight VSCode can be installed from the Visual Studio Code Marketplace. It can also be installed by executing the following in the VSCode Command Line:
 
@@ -72,7 +72,7 @@ ext install sallaapp.twilight-vscode
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### 📍 Features
+### Features
 
 Salla's twilight VSCode extension has a range of rich features that includes:
 
@@ -82,13 +82,13 @@ Salla's twilight VSCode extension has a range of rich features that includes:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### 📕 Documentation
+### Documentation
 
 For full documentation of the Twilight Theme, see the Official Documentation.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 🧵 Usage
+## Usage
 
 If you're familiar with the concept of Web Components or have read the official documentation, consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
 
@@ -99,7 +99,7 @@ If you're familiar with the concept of Web Components or have read the official 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### ⚡️ Components
+### Components
 
 Salla Twilight Web Components support over 10 different components, which are well-documented with easy-to-follow examples:
 
@@ -125,13 +125,13 @@ Salla Twilight Web Components support over 10 different components, which are we
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 👥 Support
+## Support
 
 The team is always here to help you. Happen to face an issue? Want to report a bug? You can submit one here on Github using the [Issue Tracker](https://github.com/SallaApp/twilight-vscode-extension/issues/new). If you still have any questions, please contact us via the [Telegram Bot](https://t.me/SallaSupportBot) or join in the Global Developer Community on [Telegram](https://t.me/salladev).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 💬 Contributing
+## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
 Any contributions you make are **greatly appreciated**.
@@ -147,12 +147,12 @@ You can also simply open an issue with the tag "enhancement". Don't forget to gi
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 🌐 Credits
+## Credits
 
 - [Salla](https://github.com/sallaApp)
 - [All Contributors](../../contributors)
 
-## 📝 License
+## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
