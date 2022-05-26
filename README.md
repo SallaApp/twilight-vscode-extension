@@ -54,7 +54,7 @@
 
 # Overview
 
-Twilight VSCode Extension enhances the development experience by providing a set of featuers for the Twilight JS Web Components, such as autocomplete, code snippets and intellisense, when working in Visual Studio Code.
+Twilight VSCode extension enhances the development experience by providing a set of featuers for the Twilight JS Web Components, such as autocomplete, code snippets and intellisense, when working in Visual Studio Code.
 
 <img src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" data-canonical-src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" width="800px" height="100%" />
 
@@ -64,7 +64,7 @@ Twilight VSCode Extension enhances the development experience by providing a set
 
 ### Installation
 
-Twilight VSCode can be easily installed from the Visual Studio Code Marketplace.
+Twilight VSCode extension can be easily installed straight from the Visual Studio Code Marketplace. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
