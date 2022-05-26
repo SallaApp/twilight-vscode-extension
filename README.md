@@ -7,7 +7,7 @@
   </a>
   <h1 align="center">Twilight VSCode Extension</h1>
   <p align="center">
-    Your easy, creative way to use Salla's Twilight Theme Engine in VSCode.
+    The intelligent tooling to use Salla's Twilight Theme Engine in your VSCode editor.
     <br />
     <a href="https://salla.dev/"><strong>Explore our blogs »</strong></a>
     <br />
@@ -56,7 +56,7 @@
 
 Twilight VSCode Extension contains a set of featuers for the Twilight Web Components, as it provides autocomplete, Snippets and intellisense when working in Visual Studio Code.
 
-<img src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" data-canonical-src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" width="100%" height="100%" />
+<img src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" data-canonical-src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" width="800px" height="100%" />
 
 ## 🚀 Getting Started
 
@@ -72,12 +72,13 @@ ext install sallaapp.twilight-vscode
 
 ### 📍 Features
 
+Salla's twilight theme engine has a range of rich features that includes:
+
 <br>
 
-- 🎨 Code Intellesense
-- ⌨️ Syntax Auto-completion
-- 🏷 Featured Snippets
-- 🕸 Full-fledged Salla Web Components
+- Intellesense suggestions for the JS Web Components
+- Syntax Auto-completion
+- Featured Snippets
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
