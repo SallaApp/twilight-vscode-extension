@@ -114,7 +114,6 @@ Salla Twilight Web Components in essence support over 10 different components, w
 | [Tel Input](docs/9.%20Twilight%20components/Tel%20Input.md)                       | `salla-tel-input`            | Input field for accepting merchants' phone number, with country key/code prefix                                                  |
 | [Verify](docs/9.%20Twilight%20components/Verify.md)                               | `salla-verify`               | Dependent Salla Login component where merchants who have updated their Profile details are followed up with a verification modal |
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Support
@@ -144,7 +143,7 @@ You can also simply open an issue with the tag "enhancement". Don't forget to gi
 - [Salla](https://github.com/sallaApp)
 - [All Contributors](../../contributors)
   
-<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
 
