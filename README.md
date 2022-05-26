@@ -59,14 +59,9 @@ Twilight VSCode extension enhances the development experience by providing a set
 <img src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" data-canonical-src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" width="800px" height="100%" />
 
 ## Getting Started
-
-<br>
-
 ### Installation
 
 Twilight VSCode extension can be easily installed straight from the Visual Studio Code Marketplace. 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Features
 
@@ -75,8 +70,6 @@ Salla's twilight VSCode extension has a range of rich features that includes:
 - Intellesense suggestions for the JS Web Components
 - Syntax and Code Auto-completion
 - Featured Snippets
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Documentation
 
