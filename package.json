@@ -1,5 +1,5 @@
 {
-  "name": "@salla.sa/twilight-vscode-extension",
+  "name": "TwilightVscodeExtension",
   "version": "1.0.0",
   "description": "Salla twig Snippets, Syntax Highlighting, Hover, and Formatting for Theme One",
   "author": "Salla App (https://github.com/SallaApp)",
@@ -14,7 +14,6 @@
     "type": "git",
     "url": "https://github.com/salla/twilight-vscode-extension.git"
   },
-  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.30.0"
   },
@@ -32,7 +31,7 @@
   "activationEvents": [
     "*"
   ],
-  "main": "./src/extension.js",
+  "main": "./dist/extension",
   "contributes": {
     "html": {
       "customData": [
@@ -307,7 +306,11 @@
     "hoverProvider": "true"
   },
   "scripts": {
-    "snippets-generate": "node ./scripts/snippets.autogenerate.js"
+    "snippets-generate": "node ./scripts/snippets.autogenerate.js",
+    "vscode:prepublish": "npm run build",
+    "start": "rollup -c",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
   },
   "devDependencies": {
     "@types/mocha": "^8.0.3",
@@ -318,8 +321,11 @@
     "vscode": "^1.1.37"
   },
   "dependencies": {
-    "rollup": "^2.26.5",
+    "rollup": "^2.74.1",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-json": "^4.0.0"
+    "rollup-plugin-image-assets": "^1.0.0",
+    "rollup-plugin-image-files": "^1.4.2",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }
