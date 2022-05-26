@@ -54,6 +54,8 @@
 
 # Overview
 
+Twilight JS Web Components are a collection of high-level building blocks and reusable web components that can be built together to swiftly develop the UI for custom Salla Themes, governed by clear guidelines.
+
 Twilight VSCode extension enhances the development experience by providing a set of featuers for the Twilight JS Web Components, such as autocomplete, code snippets and intellisense, when working in Visual Studio Code.
 
 <img src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" data-canonical-src="https://i.ibb.co/PYnXczP/Clean-Shot-2022-05-17-at-08-57-11.gif" width="800px" height="100%" />
