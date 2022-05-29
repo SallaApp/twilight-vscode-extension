@@ -11,6 +11,12 @@
     "description": "block styles",
     "scope": "text.html.twig"
   },
+  "salla-branches": {
+    "prefix": "Salla salla-branches",
+    "body": "<salla-button\n  onclick=\"${1}\">\n  Choose Branch\n</salla-button>\n\n<salla-branches id=\"${2}\" position=\"${3}\"></salla-branches>",
+    "description": "salla-branches",
+    "scope": "text.html.twig"
+  },
   "salla-button": {
     "prefix": "Salla salla-button",
     "body": "<salla-button button-type=\"${1}\" fill=\"${2}\" color=\"${3}\" aria-label=\"${4}\"class=\"${5} animated\" onclick=\"${6}\" data-id=\"{{ ${7} }}\">\r\n    ${8}\r\n</salla-button>",
@@ -27,6 +33,12 @@
     "prefix": "Salla salla-infinite-scroll",
     "body": "<salla-infinite-scroll class=\"grid md:grid-cols-2 gap-8\" next-page=\"{{ articles.next_page }}\" next-page.autoload>\r\n    ${1}\r\n</salla-infinite-scroll>",
     "description": "salla-infinite-scroll",
+    "scope": "text.html.twig"
+  },
+  "salla-product-availability": {
+    "prefix": "Salla salla-product-availability",
+    "body": "<salla-product-availability channels=\"${1}\" is-subscribed=\"${2}\">\n</salla-product-availability>",
+    "description": "salla-product-availability",
     "scope": "text.html.twig"
   },
   "section": {

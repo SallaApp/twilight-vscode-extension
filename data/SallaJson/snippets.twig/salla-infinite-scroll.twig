@@ -1,3 +1,14 @@
-<salla-infinite-scroll class="grid md:grid-cols-2 gap-8" next-page="{{ articles.next_page }}" next-page.autoload>
-    ${1}
+<salla-infinite-scroll next-page="${1}" container="${2}" item="${3}" next-page.autoload>
+
+  <div class="list-items">
+  {% for product in products %}
+
+  <div class="${4}">
+    <p>{{ product.image }}</p>
+    <p>{{ product.name }}</p>
+    <p>{{ product.price }}</p>
+  </div>
+  {% endfor %}
+  
+  </div>
 </salla-infinite-scroll>
