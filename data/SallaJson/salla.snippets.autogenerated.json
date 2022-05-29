@@ -19,7 +19,7 @@
   },
   "salla-button": {
     "prefix": "Salla salla-button",
-    "body": "<salla-button button-type=\"${1}\" fill=\"${2}\" color=\"${3}\" aria-label=\"${4}\"class=\"${5} animated\" onclick=\"${6}\" data-id=\"{{ ${7} }}\">\r\n    ${8}\r\n</salla-button>",
+    "body": "<salla-button btn=\"${1}\" fill=\"${2}\" color=\"${3}\" size=\"${4}\" width=\"${5}\">\nHello World! \n</salla-button>",
     "description": "salla-button",
     "scope": "text.html.twig"
   },
@@ -31,14 +31,62 @@
   },
   "salla-infinite-scroll": {
     "prefix": "Salla salla-infinite-scroll",
-    "body": "<salla-infinite-scroll class=\"grid md:grid-cols-2 gap-8\" next-page=\"{{ articles.next_page }}\" next-page.autoload>\r\n    ${1}\r\n</salla-infinite-scroll>",
+    "body": "<salla-infinite-scroll next-page=\"${1}\" container=\"${2}\" item=\"${3}\" next-page.autoload>\r\n\r\n  <div class=\"list-items\">\r\n  {% for product in products %}\r\n\r\n  <div class=\"${4}\">\r\n    <p>{{ product.image }}</p>\r\n    <p>{{ product.name }}</p>\r\n    <p>{{ product.price }}</p>\r\n  </div>\r\n  {% endfor %}\r\n  \r\n  </div>\r\n</salla-infinite-scroll>\r\n",
     "description": "salla-infinite-scroll",
+    "scope": "text.html.twig"
+  },
+  "salla-localization": {
+    "prefix": "Salla salla-localization",
+    "body": "<salla-button fill=\"${1}\" color=\"${2}\" onclick=\"${3}\">\n  Open Localization\n</salla-button>\n\n<salla-localization-modal id=\"${4}\" language=\"ar\" currency=\"sa\">\n  <div slot=\"currency\">\n    {name} {currency} {country_code}\n  </div>\n  <div slot=\"language\">\n    {name} {currency} {country_code}\n  </div>\n</salla-localization-modal>\n",
+    "description": "salla-localization",
+    "scope": "text.html.twig"
+  },
+  "salla-login": {
+    "prefix": "Salla salla-login",
+    "body": "<salla-button width=\"${1}\" onclick=\"${2}\">Login Component</salla-button>\n\n<salla-login-modal id=\"${3}\" is-email-allowed=\"true\" is-email-required=\"true\" is-mobile-allowed=\"true\">\n  <div slot=\"${4}\">\n    Custom Slot #1\n  </div>\n\n  <div slot=\"${5}\">\n    Custom Slot #2\n  </div>\n</salla-login-modal>\n",
+    "description": "salla-login",
+    "scope": "text.html.twig"
+  },
+  "salla-modal": {
+    "prefix": "Salla salla-modal",
+    "body": "<salla-button onclick=\"${1}\">Click Me!</salla-button>\n\n<salla-modal id=\"${2}\" title=\"${3}\" sub-title=\"${4}\" icon=\"${5}\" position=\"${6}\" width=\"${7}\" is-closable=\"${8}\">\n\n  Lorem mollit do dolore ipsum officia aliquip reprehenderit pariatur incididunt officia consectetur laborum.\n\n  <div slot=\"footer\">\n    <salla-button width=\"${10}\" onclick=\"${11}\">Close</salla-button>\n  </div>\n</salla-modal>\n",
+    "description": "salla-modal",
+    "scope": "text.html.twig"
+  },
+  "salla-offer": {
+    "prefix": "Salla salla-offer",
+    "body": "<salla-button onclick=\"${1}\">Offer Modal</salla-button>\n\n<salla-offer-modal>\n\n  <div slot=\"header\">\n    <p>{name}</p>\n    <p>{message}</p>\n  </div>\n\n  <div slot=\"category\">\n    <p>{name}</p>\n    <p>{url}</p>\n  </div>\n  \n  <div slot=\"product\">\n    <p>{name}</p>\n    <p>{url}</p>\n    <p>{image}</p>\n    <p>{price}</p>\n  </div>\n\n</salla-offer-modal>\n",
+    "description": "salla-offer",
     "scope": "text.html.twig"
   },
   "salla-product-availability": {
     "prefix": "Salla salla-product-availability",
     "body": "<salla-product-availability channels=\"${1}\" is-subscribed=\"${2}\">\n</salla-product-availability>",
     "description": "salla-product-availability",
+    "scope": "text.html.twig"
+  },
+  "salla-rating": {
+    "prefix": "Salla salla-rating",
+    "body": "<salla-button onclick=\"${1}\">Open Rating</salla-button>\n<salla-rating-modal id=\"${2}\" order-id=\"${3}\"></salla-rating>",
+    "description": "salla-rating",
+    "scope": "text.html.twig"
+  },
+  "salla-search": {
+    "prefix": "Salla salla-search",
+    "body": "<salla-button onclick=\"${1}\">Search</salla-button>\n\n<salla-search height=\"${2}\"></salla-search>\n\n  <div slot=\"${4}\">\n    {name} | {price} | {regular_price} | {image}\n  </div>\n  \n</salla-search>\n",
+    "description": "salla-search",
+    "scope": "text.html.twig"
+  },
+  "salla-tel-input": {
+    "prefix": "Salla salla-tel-input",
+    "body": "<salla-tel-input onclick=\"${1}\" country-code=\"${2}\" country-key=\"${3}\" mobile=\"${4}\">\n\n<salla-button fill=\"${5}\" color=\"${6}\" onclick=\"${7}\">\n   Get Values\n</salla-button>\n",
+    "description": "salla-tel-input",
+    "scope": "text.html.twig"
+  },
+  "salla-verify": {
+    "prefix": "Salla salla-verify",
+    "body": "<salla-verify></salla-verify>",
+    "description": "salla-verify",
     "scope": "text.html.twig"
   },
   "section": {
