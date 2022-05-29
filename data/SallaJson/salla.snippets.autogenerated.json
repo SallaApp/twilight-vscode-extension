@@ -13,7 +13,7 @@
   },
   "salla-branches": {
     "prefix": "Salla salla-branches",
-    "body": "<salla-button\n  onclick=\"${1}\">\n  Choose Branch\n</salla-button>\n\n<salla-branches id=\"${2}\" position=\"${3}\"></salla-branches>",
+    "body": "<salla-button onclick=\"${1}\">\n  Choose Branch\n</salla-button>\n\n<salla-branches id=\"${2}\" position=\"${3}\"></salla-branches>",
     "description": "salla-branches",
     "scope": "text.html.twig"
   },
