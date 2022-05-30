@@ -1,37 +1,37 @@
 {
   "block scripts": {
     "prefix": "Salla block scripts",
-    "body": "{% block scripts %}\n    <script defer src=\"{{ asset('dist/${1}') }}\"></script>\n{% endblock %}",
+    "body": "{% block scripts %}\r\n    <script defer src=\"{{ asset('dist/${1}') }}\"></script>\r\n{% endblock %}",
     "description": "block scripts",
     "scope": "text.html.twig"
   },
   "block styles": {
     "prefix": "Salla block styles",
-    "body": "{% block styles %}\n    <link rel=\"stylesheet\" href=\"{{ asset('dist/${1}') }}\">\n{% endblock %}",
+    "body": "{% block styles %}\r\n    <link rel=\"stylesheet\" href=\"{{ asset('dist/${1}') }}\">\r\n{% endblock %}",
     "description": "block styles",
     "scope": "text.html.twig"
   },
   "salla-button": {
     "prefix": "Salla salla-button",
-    "body": "<salla-button button-type=\"${1}\" fill=\"${2}\" color=\"${3}\" aria-label=\"${4}\"class=\"${5} animated\" onclick=\"${6}\" data-id=\"{{ ${7} }}\">\n    ${8}\n</salla-button>",
+    "body": "<salla-button button-type=\"${1}\" fill=\"${2}\" color=\"${3}\" aria-label=\"${4}\"class=\"${5} animated\" onclick=\"${6}\" data-id=\"{{ ${7} }}\">\r\n    ${8}\r\n</salla-button>",
     "description": "salla-button",
     "scope": "text.html.twig"
   },
   "salla-form": {
     "prefix": "Salla salla-form",
-    "body": "<form class=\"form form--add-comment\" onSubmit=\"return salla.form.submit('comment.send');\">\n    {% hook anti_spam %}\n    <input name=\"type\" type=\"hidden\" value=\"{{  type }}\">\n    <input name=\"id\" type=\"hidden\" value=\"{{  id }}\">\n\n    <h2 class=\"mb-5 text-lg font-bold text-dark\">{{ trans('blocks.comments.title') }}</h2>\n    \n    ${1}\n\n    <div class=\"text-end mb-4\">\n        <salla-button type=\"submit\" class=\"w-36\" loader-position=\"end\">\n        {{ trans('blocks.comments.submit') }}\n        </salla-button>\n    </div>\n</form>",
+    "body": "<form class=\"form form--add-comment\" onSubmit=\"return salla.form.submit('comment.send');\">\r\n    {% hook anti_spam %}\r\n    <input name=\"type\" type=\"hidden\" value=\"{{  type }}\">\r\n    <input name=\"id\" type=\"hidden\" value=\"{{  id }}\">\r\n\r\n    <h2 class=\"mb-5 text-lg font-bold text-dark\">{{ trans('blocks.comments.title') }}</h2>\r\n    \r\n    ${1}\r\n\r\n    <div class=\"text-end mb-4\">\r\n        <salla-button type=\"submit\" class=\"w-36\" loader-position=\"end\">\r\n        {{ trans('blocks.comments.submit') }}\r\n        </salla-button>\r\n    </div>\r\n</form>",
     "description": "salla-form",
     "scope": "text.html.twig"
   },
   "salla-infinite-scroll": {
     "prefix": "Salla salla-infinite-scroll",
-    "body": "<salla-infinite-scroll class=\"grid md:grid-cols-2 gap-8\" next-page=\"{{ articles.next_page }}\" next-page.autoload>\n    ${1}\n</salla-infinite-scroll>",
+    "body": "<salla-infinite-scroll class=\"grid md:grid-cols-2 gap-8\" next-page=\"{{ articles.next_page }}\" next-page.autoload>\r\n    ${1}\r\n</salla-infinite-scroll>",
     "description": "salla-infinite-scroll",
     "scope": "text.html.twig"
   },
   "section": {
     "prefix": "Salla section",
-    "body": "<section class=\"${1} bg-white overflow-hidden p-5 xs:p-7 rounded-md mb-5 relative\"\n                             data-filter-before-submit=\"${2}\"\n                             data-on-change=\"${3}\"\n                             data-id=\"{{ ${4} }}\"\n                             id=\"{{ ${5} }}\"\n                             salla-form-data>\n\n</section>",
+    "body": "<section class=\"${1} bg-white overflow-hidden p-5 xs:p-7 rounded-md mb-5 relative\"\r\n                             data-filter-before-submit=\"${2}\"\r\n                             data-on-change=\"${3}\"\r\n                             data-id=\"{{ ${4} }}\"\r\n                             id=\"{{ ${5} }}\"\r\n                             salla-form-data>\r\n\r\n</section>",
     "description": "section",
     "scope": "text.html.twig"
   }
