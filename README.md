@@ -13,7 +13,7 @@
     <br />
     <br />
     <a href="https://github.com/SallaApp/twilight-vscode-extension/issues/new">Report Bug</a> · 
-    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a>
+    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a> . <a href="">Official Documentation</a> 
   </p>
 </div>
 
@@ -30,9 +30,6 @@
         <li><a href="#installation">Installation</a></li>
         <li>
       <a href="#features">Features</a>
-    </li>
-    <li>
-      <a href="#documentation">Documentation</a>
     </li>
       </ul>
     </li>
@@ -69,21 +66,15 @@ Salla's twilight VSCode extension has a range of rich features that includes:
 
 #### Intellesense suggestions for the JS Web Components
 
-When start writing any of the supported JS Web Component in the VS Code editor, the intelliSense feature will start showing a list of all the available components.
+When start writing any of the supported JS Web Component in the VSCode editor, the intelliSense feature will start showing a list of all the available components.
 
 #### Syntax and Code Auto-completion
 
 Writing code faster with fewer keystrokes result in saving time. That said, typos can be corrected with the autocomplete feature as well as enhancing consistency and compatibility based on the existing code and development style.
 
-### Documentation
-
-For full documentation of the Twilight Theme, see the Official Documentation.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Usage
 
-If you're familiar with the concept of Web Components or have read the official documentation, consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
+If you're familiar with the concept of JS Web Components or have read the official documentation, consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
 
 ```html
 <!-- Salla Default Button with no props -->
