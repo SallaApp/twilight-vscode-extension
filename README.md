@@ -13,7 +13,7 @@
     <br />
     <br />
     <a href="https://github.com/SallaApp/twilight-vscode-extension/issues/new">Report Bug</a> · 
-    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a> . <a href="">Official Documentation</a> 
+    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a> . <a href="https://docs.salla.dev/docs/twilight-themes-documentation">Official Documentation</a> 
   </p>
 </div>
 
