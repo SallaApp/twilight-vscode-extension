@@ -58,23 +58,18 @@ Twilight JS Web Components are a collection of high-level building blocks and re
 ## Getting Started
 ### Installation
 
-Twilight VSCode extension can be easily installed straight from the Visual Studio Code Marketplace. 
+Twilight VSCode extension can be easily installed straight from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/). 
 
 ### Features
 
 Salla's twilight VSCode extension has a range of rich features that includes:
 
-#### Intellesense suggestions for the JS Web Components
+- __Intellesense suggestions for the JS Web Components:__ When start writing any of the supported JS Web Component in the VSCode editor, the intelliSense feature will start showing a list of all the available components.
 
-When start writing any of the supported JS Web Component in the VSCode editor, the intelliSense feature will start showing a list of all the available components.
-
-#### Syntax and Code Auto-completion
-
-Writing code faster with fewer keystrokes result in saving time. That said, typos can be corrected with the autocomplete feature as well as enhancing consistency and compatibility based on the existing code and development style.
-
+- __Syntax and Code Auto-completion:__ Writing code faster with fewer keystrokes result in saving time. That said, typos can be corrected with the autocomplete feature as well as enhancing consistency and compatibility based on the existing code and development style.
 ## Usage
 
-If you're familiar with the concept of JS Web Components or have read the official documentation, consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
+If you're familiar with the concept of JS Web Components or have read the [official documentation](https://docs.salla.dev/docs/twilight-themes-documentation), consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
 
 ```html
 <!-- Salla Default Button with no props -->
@@ -85,7 +80,7 @@ If you're familiar with the concept of JS Web Components or have read the offici
 
 ### Components
 
-Salla Twilight Web Components in essence support >10 different components, which are well-documented with easy-to-follow examples:
+Salla Twilight Web Components in essence support __>10__ different components, which are [well-documented](https://docs.salla.dev/docs/twilight-themes-documentation) with easy-to-follow examples:
 
 | Component                                                                         | Code Tag                     | Description                                                                                                                      |
 | --------------------------------------------------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
