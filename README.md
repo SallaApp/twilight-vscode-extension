@@ -80,7 +80,7 @@ If you're familiar with the concept of JS Web Components or have read the [offic
 
 ### Components
 
-Salla Twilight Web Components in essence support __>10__ different components, which are [well-documented](https://docs.salla.dev/docs/twilight-themes-documentation) with easy-to-follow examples:
+Below is a list of the ready-made Twilight JS Web Components which can be used easily. Following, in this part of the document, each component is explained in detail.
 
 | Component                                                                         | Code Tag                     | Description                                                                                                                      |
 | --------------------------------------------------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
