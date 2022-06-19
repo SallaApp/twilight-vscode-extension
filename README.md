@@ -13,7 +13,7 @@
     <br />
     <br />
     <a href="https://github.com/SallaApp/twilight-vscode-extension/issues/new">Report Bug</a> · 
-    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a>
+    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a> . <a href="https://docs.salla.dev/docs/twilight-themes-documentation">Official Documentation</a> 
   </p>
 </div>
 
@@ -30,9 +30,6 @@
         <li><a href="#installation">Installation</a></li>
         <li>
       <a href="#features">Features</a>
-    </li>
-    <li>
-      <a href="#documentation">Documentation</a>
     </li>
       </ul>
     </li>
@@ -61,29 +58,18 @@ Twilight JS Web Components are a collection of high-level building blocks and re
 ## Getting Started
 ### Installation
 
-Twilight VSCode extension can be easily installed straight from the Visual Studio Code Marketplace. 
+Twilight VSCode extension can be easily installed straight from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/). 
 
 ### Features
 
 Salla's twilight VSCode extension has a range of rich features that includes:
 
-#### Intellesense suggestions for the JS Web Components
+- __Intellesense suggestions for the JS Web Components:__ When start writing any of the supported JS Web Component in the VSCode editor, the intelliSense feature will start showing a list of all the available components.
 
-When start writing any of the supported JS Web Component in the VS Code editor, the intelliSense feature will start showing a list of all the available components.
-
-#### Syntax and Code Auto-completion
-
-Writing code faster with fewer keystrokes result in saving time. That said, typos can be corrected with the autocomplete feature as well as enhancing consistency and compatibility based on the existing code and development style.
-
-### Documentation
-
-For full documentation of the Twilight Theme, see the Official Documentation.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+- __Syntax and Code Auto-completion:__ Writing code faster with fewer keystrokes result in saving time. That said, typos can be corrected with the autocomplete feature as well as enhancing consistency and compatibility based on the existing code and development style.
 ## Usage
 
-If you're familiar with the concept of Web Components or have read the official documentation, consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
+If you're familiar with the concept of JS Web Components or have read the [official documentation](https://docs.salla.dev/docs/twilight-themes-documentation), consider the following scenario; Let's say you want to add a Button component to your project. You can do this by typing: <br> <br>
 
 ```html
 <!-- Salla Default Button with no props -->
@@ -94,22 +80,22 @@ If you're familiar with the concept of Web Components or have read the official 
 
 ### Components
 
-Salla Twilight Web Components in essence support >10 different components, which are well-documented with easy-to-follow examples:
+Below is a list of the ready-made Twilight JS Web Components which can be used easily. Following, in this part of the document, each component is explained in detail.
 
 | Component                                                                         | Code Tag                     | Description                                                                                                                      |
 | --------------------------------------------------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| [Branches](docs/9.%20Twilight%20components/Branches.md)                           | `salla-branches`             | Header component that redirects merchants to a specific branch owned by the store.                                                |
-| [Button](docs/9.%20Twilight%20components/Button.md)                               | `salla-button`               | Customizable Button component.                                                                                                    |
-| [Infinite Scroll](docs/9.%20Twilight%20components/Infinite%20Scroll.md)           | `salla-infinite-scroll`      | Items that can be scrolled infinitely.                                                                                           |
-| [Localization](docs/9.%20Twilight%20components/Localization.md)                   | `salla-localization-modal`   | Modal dialoug which merchants can select languages/currencies from.                                                              |
-| [Login](docs/9.%20Twilight%20components/Login.md)                                 | `salla-login-modal`          | Ready-made sign-in/sign-up modal.                                                                                                |
-| [Modal](docs/9.%20Twilight%20components/Modal.md)                                 | `salla-modal`                | Modal dialoug that momentarily prevents interactions.                                                                             |
-| [Offer](docs/9.%20Twilight%20components/Offer.md)                                 | `salla-offer-modal`          | Modal dialoug which merchants can select offers related to product(s) they added to the cart.                                     |
-| [Product Availability](docs/9.%20Twilight%20components/Product%20Availability.md) | `salla-product-availability` | Modal dialoug where registered merchants can be notified when a product is available.                                             |
-| [Rating](docs/9.%20Twilight%20components/Rating.md)                               | `salla-rating-modal`         | Modal dialoug prompting merchants to rate a store/product/shipping company after an order purchase has been completed.            |
-| [Search](docs/9.%20Twilight%20components/Search.md)                               | `salla-search`               | Conduct the search capbility within the store.                                                                                    |
-| [Tel Input](docs/9.%20Twilight%20components/Tel%20Input.md)                       | `salla-tel-input`            | Input field for accepting merchants' phone number, with country key/code prefix.                                                  |
-| [Verify](docs/9.%20Twilight%20components/Verify.md)                               | `salla-verify`               | Dependent Salla Login component where merchants who have updated their Profile details are followed up with a verification modal. |
+| [Branches](https://docs.salla.dev/docs/twilight-themes-documentation/70422e4259f02-branches)                           | `salla-branches`             | Header component that redirects merchants to a specific branch owned by the store.                                                |
+| [Button](https://docs.salla.dev/docs/twilight-themes-documentation/f973f4bbc269b-button)                               | `salla-button`               | Customizable Button component.                                                                                                    |
+| [Infinite Scroll](https://docs.salla.dev/docs/twilight-themes-documentation/ede37d6e84859-infinite-scroll)           | `salla-infinite-scroll`      | Items that can be scrolled infinitely.                                                                                           |
+| [Localization](https://docs.salla.dev/docs/twilight-themes-documentation/559cc67721f74-localization)                   | `salla-localization-modal`   | Modal dialoug which merchants can select languages/currencies from.                                                              |
+| [Login](https://docs.salla.dev/docs/twilight-themes-documentation/0796e7fb0464b-login)                                 | `salla-login-modal`          | Ready-made sign-in/sign-up modal.                                                                                                |
+| [Modal](https://docs.salla.dev/docs/twilight-themes-documentation/32babc5658e91-modal)                                 | `salla-modal`                | Modal dialoug that momentarily prevents interactions.                                                                             |
+| [Offer](https://docs.salla.dev/docs/twilight-themes-documentation/1bb759464b884-offer)                                 | `salla-offer-modal`          | Modal dialoug which merchants can select offers related to product(s) they added to the cart.                                     |
+| [Product Availability](https://docs.salla.dev/docs/twilight-themes-documentation/2d4dd6d9016bf-product-availability) | `salla-product-availability` | Modal dialoug where registered merchants can be notified when a product is available.                                             |
+| [Rating](https://docs.salla.dev/docs/twilight-themes-documentation/1c81291fb13c7-rating)                               | `salla-rating-modal`         | Modal dialoug prompting merchants to rate a store/product/shipping company after an order purchase has been completed.            |
+| [Search](https://docs.salla.dev/docs/twilight-themes-documentation/8379c482cea4b-search)                               | `salla-search`               | Conduct the search capbility within the store.                                                                                    |
+| [Tel Input](https://docs.salla.dev/docs/twilight-themes-documentation/82c778cf6f21f-tel-input)                       | `salla-tel-input`            | Input field for accepting merchants' phone number, with country key/code prefix.                                                  |
+| [Verify](https://docs.salla.dev/docs/twilight-themes-documentation/634794ef9a954-verify)                               | `salla-verify`               | Dependent Salla Login component where merchants who have updated their Profile details are followed up with a verification modal. |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
