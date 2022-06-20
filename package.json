@@ -1,6 +1,6 @@
 {
   "name": "twilight-vscode-extension",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The intelligent tooling to use Salla's Twilight Theme Engine in your VSCode editor.",
   "author": "Salla App (https://github.com/SallaApp)",
   "displayName": "Salla Twig Theme One",
@@ -93,47 +93,47 @@
         },
         "@salla.sa/twilight-vscode-extension.braceLine": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If true an empty line will be inserted after opening curly braces and before closing curly braces."
         },
         "@salla.sa/twilight-vscode-extension.bracePadding": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Inserts a space after the start of a container and before the end of the container if the contents of that container are not indented; such as: conditions, function arguments, and escaped sequences of template strings."
         },
         "@salla.sa/twilight-vscode-extension.braces": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Determines if opening curly braces will exist on the same line as their condition or be forced onto a new line."
         },
         "@salla.sa/twilight-vscode-extension.commentLine": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If a blank new line should be forced above comments."
         },
         "@salla.sa/twilight-vscode-extension.comments": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "This will determine whether comments should always start at position 0 of each line or if comments should be indented according to the code."
         },
         "@salla.sa/twilight-vscode-extension.compressedCss": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If CSS should be beautified in a style where the properties and values are minifed for faster reading of selectors."
         },
         "@salla.sa/twilight-vscode-extension.correct": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Automatically correct some sloppiness in code."
         },
         "@salla.sa/twilight-vscode-extension.cssInsertLines": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Inserts new line characters between every CSS code block."
         },
         "@salla.sa/twilight-vscode-extension.elseLine": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If else_line is true then the keyword 'else' is forced onto a new line."
         },
         "@salla.sa/twilight-vscode-extension.endComma": {
@@ -143,17 +143,17 @@
             "never",
             "none"
           ],
-          "default": false,
+          "default": true,
           "description": "If there should be a trailing comma in arrays and objects. Value multiline only applies to modes beautify and diff."
         },
         "@salla.sa/twilight-vscode-extension.forceAttribute": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If all markup attributes should be indented each onto their own line."
         },
         "@salla.sa/twilight-vscode-extension.forceIndent": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Will force indentation upon all content and tags without regard for the creation of new text nodes."
         },
         "@salla.sa/twilight-vscode-extension.formatArray": {
@@ -178,7 +178,7 @@
         },
         "@salla.sa/twilight-vscode-extension.functionName": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If a space should follow a JavaScript function name."
         },
         "@salla.sa/twilight-vscode-extension.indentStyle": {
@@ -207,7 +207,7 @@
         },
         "@salla.sa/twilight-vscode-extension.neverFlatten": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If destructured lists in script should never be flattend."
         },
         "@salla.sa/twilight-vscode-extension.newLine": {
@@ -217,17 +217,17 @@
         },
         "@salla.sa/twilight-vscode-extension.noCaseIndent": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If a case statement should receive the same indentation as the containing switch block."
         },
         "@salla.sa/twilight-vscode-extension.noLeadZero": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Whether leading 0s in CSS values immediately preceeding a decimal should be removed or prevented."
         },
         "@salla.sa/twilight-vscode-extension.objectSort": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Sorts markup attributes and properties by key name in script and style."
         },
         "@salla.sa/twilight-vscode-extension.preserve": {
@@ -237,7 +237,7 @@
         },
         "@salla.sa/twilight-vscode-extension.preserveComment": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Prevent comment reformatting due to option wrap."
         },
         "@salla.sa/twilight-vscode-extension.quoteConvert": {
@@ -257,17 +257,17 @@
         },
         "@salla.sa/twilight-vscode-extension.spaceClose": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Markup self-closing tags end will end with ' />' instead of '/>'."
         },
         "@salla.sa/twilight-vscode-extension.tagMerge": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Allows immediately adjacement start and end markup tags of the same name to be combined into a single self-closing tag."
         },
         "@salla.sa/twilight-vscode-extension.tagSort": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Sort child items of each respective markup parent element."
         },
         "@salla.sa/twilight-vscode-extension.ternaryLine": {
@@ -277,7 +277,7 @@
         },
         "@salla.sa/twilight-vscode-extension.unformatted": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If markup tags should have their insides preserved. This option is only available to markup and does not support child tokens that require a different lexer."
         },
         "@salla.sa/twilight-vscode-extension.variableList": {
@@ -292,7 +292,7 @@
         },
         "@salla.sa/twilight-vscode-extension.vertical": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If lists of assignments and properties should be vertically aligned. This option is not used with the markup lexer."
         },
         "@salla.sa/twilight-vscode-extension.wrap": {
