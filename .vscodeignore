@@ -12,3 +12,4 @@ scripts/
 .github
 yarn-error.log
 .fuse_hidden*
+rollup.config.js
