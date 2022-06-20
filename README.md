@@ -59,7 +59,7 @@ Twilight JS Web Components are a collection of high-level building blocks and re
 
 ### Installation
 
-Twilight VSCode extension can be easily installed straight from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/).
+Twilight VSCode extension can be easily installed straight from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Salla.twilight-vscode-extension).
 
 ### Features
 
