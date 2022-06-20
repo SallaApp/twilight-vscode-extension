@@ -1,9 +1,9 @@
 {
   "name": "twilight-vscode-extension",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "The intelligent tooling to use Salla's Twilight Theme Engine in your VSCode editor.",
   "author": "Salla App (https://github.com/SallaApp)",
-  "displayName": "Salla Twig Theme One",
+  "displayName": "Twilight Themes AutoComplete",
   "publisher": "Salla",
   "license": "MIT",
   "homepage": "https://github.com/SallaApp/twilight-vscode-extension",
