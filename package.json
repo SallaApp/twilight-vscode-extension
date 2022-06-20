@@ -1,6 +1,6 @@
 {
   "name": "twilight-vscode-extension",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "The intelligent tooling to use Salla's Twilight Theme Engine in your VSCode editor.",
   "author": "Salla App (https://github.com/SallaApp)",
   "displayName": "Salla Twig Theme One",
@@ -334,16 +334,18 @@
       ]
     },
     "documentFormattingProvider": "true",
-    "documentRangeFormattingProvider": "true"
+    "documentRangeFormattingProvider": "true",
+    "textDocument/comment": {
+      "supported": "true",
+      "defaultValue": "true"
+    }
   },
   "scripts": {
     "snippets-generate": "node ./scripts/snippets.autogenerate.js",
-    "vscode:prepublish": "sudo yarn run build && sudo yarn run snippets-generate",
+    "vscode:prepublish": "sudo yarn run build",
     "package": "sudo vsce package --yarn",
     "publish": "sudo vsce publish --allow-star-activation ",
-    "start": "rollup -c",
-    "build": "rollup -c",
-    "watch": "rollup -c -w"
+    "build": "sudo yarn run snippets-generate &&  rollup -c"
   },
   "devDependencies": {
     "@types/mocha": "^8.0.3",
