@@ -9,3 +9,6 @@ vsc-extension-quickstart.md
 **/.eslintrc.json
 src/
 scripts/
+.github
+yarn-error.log
+.fuse_hidden*

@@ -1,10 +1,10 @@
 {
   "name": "twilight-vscode-extension",
-  "version": "1.0.0",
-  "description": "Salla twig Snippets, Syntax Highlighting, Hover, and Formatting for Theme One",
+  "version": "1.0.3",
+  "description": "The intelligent tooling to use Salla's Twilight Theme Engine in your VSCode editor.",
   "author": "Salla App (https://github.com/SallaApp)",
   "displayName": "Salla Twig Theme One",
-  "publisher": "salla",
+  "publisher": "Salla",
   "license": "MIT",
   "homepage": "https://github.com/salla/twilight-vscode-extension",
   "bugs": {
@@ -16,7 +16,7 @@
   },
   "icon": "images/logo.png",
   "engines": {
-    "vscode": "^1.30.0"
+    "vscode": "^1.68.0"
   },
   "categories": [
     "Programming Languages",
@@ -32,7 +32,7 @@
   "activationEvents": [
     "*"
   ],
-  "main": "./dist/extension",
+  "main": "dist/extension",
   "contributes": {
     "html": {
       "customData": [
@@ -308,8 +308,9 @@
   },
   "scripts": {
     "snippets-generate": "node ./scripts/snippets.autogenerate.js",
-    "vscode:prepublish": "yarn run build",
+    "vscode:prepublish": "sudo yarn run build && sudo yarn run snippets-generate",
     "package": "sudo vsce package --yarn",
+    "publish": "sudo vsce publish --allow-star-activation ",
     "start": "rollup -c",
     "build": "rollup -c",
     "watch": "rollup -c -w"

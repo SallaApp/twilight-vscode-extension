@@ -1,3 +1,5 @@
 node_modules
 .vscode-test/
 *.vsix
+yarn-error.log
+.fuse_hidden*
