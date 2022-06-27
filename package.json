@@ -348,7 +348,7 @@
     "build": "sudo yarn run snippets-generate &&  rollup -c"
   },
   "devDependencies": {
-    "@types/mocha": "^8.0.3",
+    "@types/mocha": "^9.1.1",
     "@types/node": "^18.0.0",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
