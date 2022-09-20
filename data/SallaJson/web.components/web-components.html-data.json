@@ -79,27 +79,1001 @@
       ]
     },
     {
+      "name": "salla-add-product-button",
+      "attributes": [
+        {
+          "name": "channels",
+          "description": "Channels.",
+          "values": []
+        },
+        {
+          "name": "donatingAmount",
+          "description": "Donating amount.",
+          "values": []
+        },
+        {
+          "name": "productId",
+          "description": "Product id",
+          "values": []
+        },
+        {
+          "name": "productStatus",
+          "description": "Product Status.Defaults to sale",
+          "values": [{ "name": "out" }, { "name": "out-and-notify" }, { "name": "sale" }]
+        },
+        {
+          "name": "productType",
+          "description": "Product type. Defaults to product",
+
+          "values": [
+            { "name": "codes" },
+            { "name": "digital" },
+            { "name": "donating" },
+            { "name": "food" },
+            { "name": "group_products" },
+            { "name": "product" },
+            { "name": "service" }
+          ]
+        },
+        {
+          "name": "quantity",
+          "description": "Product Quantity",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-conditional-fields",
+      "attributes": []
+    },
+    {
+      "name": "salla-datetime-picker",
+      "attributes": [
+        {
+          "name": "allowInput",
+          "description": "Allows the user to enter a date directly into the input field. By default, direct entry is disabled.",
+          "values": []
+        },
+        {
+          "name": "allowInvalidPreload",
+          "description": "Allows the preloading of an invalid date. When disabled, the field will be cleared if the provided date is invalid",
+          "values": []
+        },
+        {
+          "name": "altFormat",
+          "description": "Exactly the same as date format, but for the altInput field.",
+          "values": []
+        },
+        {
+          "name": "altInput",
+          "description": "Show the user a readable date (as per altFormat), but return something totally different to the server.",
+          "values": []
+        },
+        {
+          "name": "altInputClass",
+          "description": "This class will be added to the input element created by the altInput option. Note that altInput already inherits classes from the original input.",
+          "values": []
+        },
+        {
+          "name": "appendTo",
+          "description": "Instead of body, appends the calendar to the specified node instead.",
+          "values": []
+        },
+        {
+          "name": "ariaDateFormat",
+          "description": "Defines how the date will be formatted in the aria-label for calendar days,  using the same tokens as dateFormat. If you change this, you should choose a  value that will make sense if a screen reader reads it out loud.",
+          "values": []
+        },
+        {
+          "name": "autoFillDefaultTime",
+          "description": "Whether the default time should be auto-filled when the input is empty and gains or loses focus.",
+          "values": []
+        },
+        {
+          "name": "clickOpens",
+          "description": "Whether clicking on the input should open the picker.  Set it to false if you only want to open the calendar programmatically with [open()]",
+          "values": []
+        },
+        {
+          "name": "closeOnSelect",
+          "description": "Whether calendar should close after date selection or not",
+          "values": []
+        },
+        {
+          "name": "conjunction",
+          "description": "When in \"multiple\" mode, conjunction is used to separate dates in the entry field.",
+          "values": []
+        },
+        {
+          "name": "dateFormat",
+          "description": "A string of characters which are used to define how the date will be displayed in the input box.  The supported characters are defined in the table below.",
+          "values": []
+        },
+        {
+          "name": "dateParser",
+          "description": "A custom datestring parser",
+          "values": []
+        },
+        {
+          "name": "defaultDate",
+          "description": "Sets the initial selected date(s). If you're using mode: \"multiple\" or a range calendar supply an  Array of Date objects or an Array of date strings which follow your dateFormat. Otherwise, you can supply  a single Date object or a date string.",
+          "values": []
+        },
+        {
+          "name": "defaultHour",
+          "description": "Initial value of the hour element, when no date is selected",
+          "values": []
+        },
+        {
+          "name": "defaultMinute",
+          "description": "Initial value of the minute element, when no date is selected",
+          "values": []
+        },
+        {
+          "name": "defaultSeconds",
+          "description": "Initial value of the seconds element, when no date is selected",
+          "values": []
+        },
+        {
+          "name": "disable",
+          "description": "Disables certain dates, preventing them from being selected.  See https://chmln.github.io/flatpickr/examples/#disabling-specific-dates",
+          "values": []
+        },
+        {
+          "name": "disableMobile",
+          "description": "Set this to true to always use the non-native picker on mobile devices.  By default, Flatpickr utilizes native datetime widgets unless certain options (e.g. disable) are used.",
+          "values": []
+        },
+        {
+          "name": "enable",
+          "description": "Disables all dates except these specified. See https://chmln.github.io/flatpickr/examples/#disabling-all-dates-except-select-few",
+          "values": []
+        },
+        {
+          "name": "enableSeconds",
+          "description": "Enables seconds selection in the time picker.",
+          "values": []
+        },
+        {
+          "name": "enableTime",
+          "description": "Enables the time picker",
+          "values": []
+        },
+        {
+          "name": "formatDate",
+          "description": "Allows using a custom date formatting function instead of the built-in handling for date formats using dateFormat, altFormat, etc.",
+          "values": []
+        },
+        {
+          "name": "hourIncrement",
+          "description": "Adjusts the step for the hour input (incl. scrolling)",
+          "values": []
+        },
+        {
+          "name": "inline",
+          "description": "Displays the calendar inline",
+          "values": []
+        },
+        {
+          "name": "locale",
+          "description": "The locale, either as a string (e.g. \"ar\", \"en\") or as an object. See https://chmln.github.io/flatpickr/localization/",
+          "values": [
+            {
+              "name": "ar"
+            },
+            {
+              "name": "at"
+            },
+            {
+              "name": "az"
+            },
+            {
+              "name": "be"
+            },
+            {
+              "name": "bg"
+            },
+            {
+              "name": "bn"
+            },
+            {
+              "name": "bs"
+            },
+            {
+              "name": "ca"
+            },
+            {
+              "name": "cat"
+            },
+            {
+              "name": "ckb"
+            },
+            {
+              "name": "cs"
+            },
+            {
+              "name": "cy"
+            },
+            {
+              "name": "da"
+            },
+            {
+              "name": "de"
+            },
+            {
+              "name": "default"
+            },
+            {
+              "name": "en"
+            },
+            {
+              "name": "eo"
+            },
+            {
+              "name": "es"
+            },
+            {
+              "name": "et"
+            },
+            {
+              "name": "fa"
+            },
+            {
+              "name": "fi"
+            },
+            {
+              "name": "fo"
+            },
+            {
+              "name": "fr"
+            },
+            {
+              "name": "gr"
+            },
+            {
+              "name": "he"
+            },
+            {
+              "name": "hi"
+            },
+            {
+              "name": "hr"
+            },
+            {
+              "name": "hu"
+            },
+            {
+              "name": "hy"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "is"
+            },
+            {
+              "name": "it"
+            },
+            {
+              "name": "ja"
+            },
+            {
+              "name": "ka"
+            },
+            {
+              "name": "ko"
+            },
+            {
+              "name": "km"
+            },
+            {
+              "name": "kz"
+            },
+            {
+              "name": "lt"
+            },
+            {
+              "name": "lv"
+            },
+            {
+              "name": "mk"
+            },
+            {
+              "name": "mn"
+            },
+            {
+              "name": "ms"
+            },
+            {
+              "name": "my"
+            },
+            {
+              "name": "nl"
+            },
+            {
+              "name": "nn"
+            },
+            {
+              "name": "no"
+            },
+            {
+              "name": "pa"
+            },
+            {
+              "name": "pl"
+            },
+            {
+              "name": "pt"
+            },
+            {
+              "name": "ro"
+            },
+            {
+              "name": "ru"
+            },
+            {
+              "name": "si"
+            },
+            {
+              "name": "sk"
+            },
+            {
+              "name": "sl"
+            },
+            {
+              "name": "sq"
+            },
+            {
+              "name": "sr"
+            },
+            {
+              "name": "sv"
+            },
+            {
+              "name": "th"
+            },
+            {
+              "name": "tr"
+            },
+            {
+              "name": "uk"
+            },
+            {
+              "name": "vn"
+            },
+            {
+              "name": "zh"
+            },
+            {
+              "name": "uz"
+            },
+            {
+              "name": "uz_latn"
+            },
+            {
+              "name": "zh_tw"
+            }
+          ]
+        },
+        {
+          "name": "maxDate",
+          "description": "The maximum date that a user can pick to (inclusive).",
+          "values": []
+        },
+        {
+          "name": "maxTime",
+          "description": "The minimum date that a user can start picking from (inclusive).",
+          "values": []
+        },
+        {
+          "name": "minDate",
+          "description": "The minimum date that a user can start picking from (inclusive).",
+          "values": []
+        },
+        {
+          "name": "minTime",
+          "description": "The minimum time that a user can start picking from (inclusive).",
+          "values": []
+        },
+        {
+          "name": "minuteIncrement",
+          "description": "Adjusts the step for the minute input (incl. scrolling) Defaults to 5",
+          "values": []
+        },
+        {
+          "name": "mode",
+          "description": "Date selection mode, defaults to \"single\"",
+          "values": [
+            {
+              "name": "multiple"
+            },
+            {
+              "name": "range"
+            },
+            {
+              "name": "single"
+            },
+            {
+              "name": "time"
+            }
+          ]
+        },
+        {
+          "name": "monthSelectorType",
+          "description": "How the month should be displayed in the header of the calendar. If showMonths has a value greater than 1, the month is always shown as static.",
+
+          "values": [
+            {
+              "name": "dropdown"
+            },
+            {
+              "name": "static"
+            }
+          ]
+        },
+        {
+          "name": "nextArrow",
+          "description": "HTML for the arrow icon, used to switch months.",
+          "values": []
+        },
+        {
+          "name": "noCalendar",
+          "description": "Hides the day selection in calendar. Use it along with enableTime to create a time picker.",
+          "values": []
+        },
+        {
+          "name": "onChange",
+          "description": "Fires when the selected dates have changed - when a date is picked or cleared, by user or programmatically.",
+          "values": []
+        },
+        {
+          "name": "onClose",
+          "description": "Fires when the calendar is closed",
+          "values": []
+        },
+        {
+          "name": "onDayCreate",
+          "description": "Fires for every day cell in the calendar, where the fourth argument is the html element of the cell.  See https://chmln.github.io/flatpickr/events/#ondaycreate",
+          "values": []
+        },
+        {
+          "name": "onDestroy",
+          "description": "Fires before the calendar instance is destroyed",
+          "values": []
+        },
+        {
+          "name": "onKeyDown",
+          "description": "Fires when valid keyboard input for calendar is detected",
+          "values": []
+        },
+        {
+          "name": "onMonthChange",
+          "description": "Fires after the month has changed",
+          "values": []
+        },
+        {
+          "name": "onOpen",
+          "description": "Fires after the calendar is opened",
+          "values": []
+        },
+        {
+          "name": "onParseConfig",
+          "description": "Fires after the configuration for the calendar is parsed",
+          "values": []
+        },
+        {
+          "name": "onReady",
+          "description": "Fires once the calendar instance is ready",
+          "values": []
+        },
+        {
+          "name": "onValueUpdate",
+          "description": "Like onChange, but fires immediately after any date changes",
+          "values": []
+        },
+        {
+          "name": "onYearChange",
+          "description": "Fires after the year has changed",
+          "values": []
+        },
+        {
+          "name": "placeholder",
+          "description": "Placeholder text to show on the input element",
+          "values": []
+        },
+        {
+          "name": "position",
+          "description": "How the calendar should be positioned with regards to the input. Defaults to \"auto\"",
+
+          "values": [
+            {
+              "name": "above center"
+            },
+            {
+              "name": "above left"
+            },
+            {
+              "name": "above right"
+            },
+            {
+              "name": "above"
+            },
+            {
+              "name": "auto center"
+            },
+            {
+              "name": "auto left"
+            },
+            {
+              "name": "auto right"
+            },
+            {
+              "name": "auto"
+            },
+            {
+              "name": "below center"
+            },
+            {
+              "name": "below left"
+            },
+            {
+              "name": "below right"
+            },
+            {
+              "name": "below"
+            }
+          ]
+        },
+        {
+          "name": "positionElement",
+          "description": "The element off of which the calendar will be positioned. Defaults to the date input",
+          "values": []
+        },
+        {
+          "name": "prevArrow",
+          "description": "HTML for the left arrow icon, used to switch months.",
+          "values": []
+        },
+        {
+          "name": "shorthandCurrentMonth",
+          "description": "Whether to display the current month name in shorthand mode, e.g. \"Sep\" instead \"September\"",
+          "values": []
+        },
+        {
+          "name": "showMonths",
+          "description": "The number of months to be shown at the same time when displaying the calendar.",
+          "values": []
+        },
+        {
+          "name": "static",
+          "description": "Position the calendar inside the wrapper and next to the input element*.",
+          "values": []
+        },
+        {
+          "name": "time_24hr",
+          "description": "Displays time picker in 24 hour mode without AM/PM selection when enabled.",
+          "values": []
+        },
+        {
+          "name": "value",
+          "description": "Two way data binding to retrieve the selected date[time] value",
+          "values": []
+        },
+        {
+          "name": "weekNumbers",
+          "description": "Enables display of week numbers in calendar.",
+          "values": []
+        },
+        {
+          "name": "wrap",
+          "description": "See https://chmln.github.io/flatpickr/examples/#flatpickr-external-elements",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-file-upload",
+      "attributes": [
+        {
+          "name": "allowBrowse",
+          "description": "Enable or disable file browser",
+          "values": []
+        },
+        {
+          "name": "allowDrop",
+          "description": "Enable or disable drag n' drop",
+          "values": []
+        },
+        {
+          "name": "allowMultiple",
+          "description": "Enable or disable adding multiple files",
+          "values": []
+        },
+        {
+          "name": "allowPaste",
+          "description": "Enable or disable pasting of files. Pasting files is not supported on all browesrs.",
+          "values": []
+        },
+        {
+          "name": "allowProcess",
+          "description": "Enable or disable the process button",
+          "values": []
+        },
+        {
+          "name": "allowRemove",
+          "description": "When set to false the remove button is hidden and disabled",
+          "values": []
+        },
+        {
+          "name": "allowReorder",
+          "description": "Allow users to reorder files with drag and drop interaction.  Note that this only works in single column mode.  It also only works on browsers that support pointer events.",
+          "values": []
+        },
+        {
+          "name": "allowReplace",
+          "description": "Allow drop to replace a file, only works when allowMultiple is false",
+          "values": []
+        },
+        {
+          "name": "allowRevert",
+          "description": "Enable or disable the revert processing button",
+          "values": []
+        },
+        {
+          "name": "checkValidity",
+          "description": "Set to true to enable custom validity messages.  FilePond will throw an error when a parent form is submitted and it contains invalid files.",
+          "values": []
+        },
+        {
+          "name": "chunkForce",
+          "description": "Force chunks even for files smaller than the set chunkSize",
+          "values": []
+        },
+        {
+          "name": "chunkRetryDelays",
+          "description": "Amount of times, and delayes, between retried uploading of a chunk",
+          "values": []
+        },
+        {
+          "name": "chunkSize",
+          "description": "The size of a chunk in bytes",
+          "values": []
+        },
+        {
+          "name": "chunkUploads",
+          "description": "Enable chunked uploads, when enabled will automatically cut up files in chunkSize chunks before upload.",
+          "values": []
+        },
+        {
+          "name": "credits",
+          "description": "Show credits at the bottom of the upload element. Structure is like [{label,url}]",
+          "values": []
+        },
+        {
+          "name": "disabled",
+          "description": "Sets the disabled attribute to the output field",
+          "values": []
+        },
+        {
+          "name": "dropOnElement",
+          "description": "Require drop on the FilePond element itself to catch the file.",
+          "values": []
+        },
+        {
+          "name": "dropOnPage",
+          "description": "FilePond will catch all files dropped on the webpage",
+          "values": []
+        },
+        {
+          "name": "dropValidation",
+          "description": "When enabled, files are validated before they are dropped. A file is not added when it's invalid.",
+          "values": []
+        },
+        {
+          "name": "forceRevert",
+          "description": "Set to true to require the file to be successfully reverted before continuing.",
+          "values": []
+        },
+        {
+          "name": "iconProcess",
+          "description": "The icon used for process actions",
+          "values": []
+        },
+        {
+          "name": "iconRemove",
+          "description": "The icon used for remove actions",
+          "values": []
+        },
+        {
+          "name": "iconRetry",
+          "description": "The icon used for retry actions",
+          "values": []
+        },
+        {
+          "name": "iconUndo",
+          "description": "The icon used for undo actions",
+          "values": []
+        },
+        {
+          "name": "ignoredFiles",
+          "description": "Ignored file names when handling dropped directories. Dropping directories is not supported on all browsers.",
+          "values": []
+        },
+        {
+          "name": "instantUpload",
+          "description": "Immediately upload new files to the server",
+          "values": []
+        },
+        {
+          "name": "itemInsertInterval",
+          "description": "The interval to use before showing each item being added to the list",
+          "values": []
+        },
+        {
+          "name": "itemInsertLocation",
+          "description": "Set to 'after' to add files to end of list (when dropped at the top of the list or added using browse or paste),  set to 'before' to add files at start of list.  Set to a compare function to automatically sort items when added",
+          "values": []
+        },
+        {
+          "name": "labelButtonAbortItemLoad",
+          "description": "Label used for abort load button",
+          "values": []
+        },
+        {
+          "name": "labelButtonAbortItemProcessing",
+          "description": "Label used for abort upload button",
+          "values": []
+        },
+        {
+          "name": "labelButtonProcessItem",
+          "description": "Label used for upload button",
+          "values": []
+        },
+        {
+          "name": "labelButtonRemoveItem",
+          "description": "Label used for remove button",
+          "values": []
+        },
+        {
+          "name": "labelButtonRetryItemLoad",
+          "description": "Label used for retry load button",
+          "values": []
+        },
+        {
+          "name": "labelButtonRetryItemProcessing",
+          "description": "Label used for retry upload button",
+          "values": []
+        },
+        {
+          "name": "labelButtonUndoItemProcessing",
+          "description": "Label used for undo upload button",
+          "values": []
+        },
+        {
+          "name": "labelDecimalSeparator",
+          "description": "The decimal separator used to render numbers. By default this is determined automatically.",
+          "values": []
+        },
+        {
+          "name": "labelFileLoadError",
+          "description": "Label used when file load failed",
+          "values": []
+        },
+        {
+          "name": "labelFileLoading",
+          "description": "Label used while loading a file",
+          "values": []
+        },
+        {
+          "name": "labelFileProcessing",
+          "description": "Label used when uploading a file",
+          "values": []
+        },
+        {
+          "name": "labelFileProcessingAborted",
+          "description": "Label used when upload was cancelled",
+          "values": []
+        },
+        {
+          "name": "labelFileProcessingComplete",
+          "description": "Label used when file upload has completed",
+          "values": []
+        },
+        {
+          "name": "labelFileProcessingError",
+          "description": "Label used when something went wrong during file upload",
+          "values": []
+        },
+        {
+          "name": "labelFileProcessingRevertError",
+          "description": "Label used when something went wrong during reverting the file upload",
+          "values": []
+        },
+        {
+          "name": "labelFileRemoveError",
+          "description": "Label used to indicate something went wrong when removing the file",
+          "values": []
+        },
+        {
+          "name": "labelFileSizeNotAvailable",
+          "description": "Label used when no file size information was received",
+          "values": []
+        },
+        {
+          "name": "labelFileWaitingForSize",
+          "description": "Label used while waiting for file size information.",
+          "values": []
+        },
+        {
+          "name": "labelIdle",
+          "description": "Default label shown to indicate this is a drop area.  FilePond will automatically bind browse file events to the element with CSS class .filepond--label-action",
+          "values": []
+        },
+        {
+          "name": "labelInvalidField",
+          "description": "Label shown when the field contains invalid files and is validated by the parent form.",
+          "values": []
+        },
+        {
+          "name": "labelTapToCancel",
+          "description": "Label used to indicate to the user that an action can be cancelled.",
+          "values": []
+        },
+        {
+          "name": "labelTapToRetry",
+          "description": "Label used to indicate to the user that an action can be retried.",
+          "values": []
+        },
+        {
+          "name": "labelTapToUndo",
+          "description": "Label used to indicate to the user that an action can be undone.",
+          "values": []
+        },
+        {
+          "name": "labelThousandsSeparator",
+          "description": "The thousdands separator used to render numbers. By default this is determined automatically.",
+          "values": []
+        },
+        {
+          "name": "maxFilesCount",
+          "description": "The maximum number of files that the pond can handle",
+          "values": []
+        },
+        {
+          "name": "maxParallelUploads",
+          "description": "The maxmimum number of files that can be uploaded in parallel",
+          "values": []
+        },
+        {
+          "name": "required",
+          "description": "Sets the required attribute to the output field",
+          "values": []
+        },
+        {
+          "name": "serverConfig",
+          "description": "A server configuration object describing how FilePond should interact with the server.",
+          "values": []
+        },
+        {
+          "name": "storeAsFile",
+          "description": "Tells FilePond to store files in hidden file input elements so they can be posted along with normal form post.  This only works if the browser supports the DataTransfer constructor (https://caniuse.com/mdn-api_datatransfer_datatransfer),  this is the case on Firefox, Chrome, Chromium powered browsers and Safari version 14.1 and higher.",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-gifting",
+      "attributes": [
+        {
+          "name": "productId",
+          "description": "The product id for which the gifting system is required.",
+          "values": []
+        }
+      ]
+    },
+    {
       "name": "salla-infinite-scroll",
       "attributes": [
         {
+          "name": "autoload",
+          "description": "Is there is need to autoload next page when scroll next-page-autoload\\",
+          "values": []
+        },
+        {
           "name": "container",
-          "description": "Class selector to know the container if it's not the host `<salla-infinite-scroll>`",
-          "values": [{ "name": "string", "desc": "string" }]
+          "description": "Class selector to know the container if it's not the host <salla-infinite-scroll>",
+          "values": []
         },
         {
           "name": "item",
           "description": "Class selector to know list items",
-          "values": [{ "name": "string", "desc": "string" }]
+          "values": []
         },
         {
           "name": "nextPage",
           "description": "Next Page element",
-          "values": [{ "name": "string", "desc": "string" }]
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-installment",
+      "attributes": [
+        {
+          "name": "currency",
+          "description": "Currency code",
+          "values": []
         },
         {
-          "name": "nextPageAutoload",
-          "description": "Is there is need to autoload next page when scroll `next-page-autoload|next-page.autoload`",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "name": "language",
+          "description": "Language code",
+          "values": []
+        },
+        {
+          "name": "price",
+          "description": "Current product price",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-list-tile",
+      "attributes": [
+        {
+          "name": "href",
+          "description": "Designates the component as anchor and applies the href attribute.",
+          "values": []
+        },
+        {
+          "name": "target",
+          "description": "Designates the target attribute. This should only be applied when using the href prop.",
+          "values": [
+            {
+              "name": "_blank",
+              "description": "Opens the linked document in a new window or tab"
+            },
+            {
+              "name": "_parent",
+              "description": "Opens the linked document in the parent frame"
+            },
+            {
+              "name": "_self",
+              "description": "Opens the linked document in the same frame as it was clicked (this is default)"
+            },
+            {
+              "name": "_top",
+              "description": "Opens the linked document in the full body of the window"
+            },
+            {
+              "name": "framename",
+              "description": "Opens the linked document in a named frame"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "salla-loading",
+      "attributes": [
+        {
+          "name": "bgColor",
+          "description": "Spinner background color.",
+          "values": []
+        },
+        {
+          "name": "color",
+          "description": "Spinner content color.",
+          "values": []
+        },
+        {
+          "name": "size",
+          "description": "Sets the diameter of the circle in pixels, Defaults to 32",
+          "values": []
+        },
+        {
+          "name": "width",
+          "description": "Sets the stroke of the circle (border) in pixels, Defaults to 4",
+          "values": []
         }
       ]
     },
@@ -108,11 +1082,13 @@
       "attributes": [
         {
           "name": "currency",
-          "values": [{ "name": "string", "desc": "string" }]
+          "description": "Current currency (existing or newly selected)",
+          "values": []
         },
         {
           "name": "language",
-          "values": [{ "name": "string", "desc": "string" }]
+          "description": "Current language (existing or newly selected)",
+          "values": []
         }
       ]
     },
@@ -122,17 +1098,32 @@
         {
           "name": "isEmailAllowed",
           "description": "Does the merchant allow to login using email",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "values": []
         },
         {
           "name": "isEmailRequired",
           "description": "Does the merchant require registration with email & mobile",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "values": []
         },
         {
           "name": "isMobileAllowed",
-          "description": "Does the merchant/current location for visitor allow to login using mobile, By default outside KSA is `false`",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "description": "Does the merchant/current location for visitor allow to login using mobile, By default outside KSA is false",
+          "values": []
+        },
+        {
+          "name": "supportWebAuth",
+          "description": "Once the api verify success, it will be login the customer in web pages",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-loyalty",
+      "attributes": [
+        {
+          "name": "item",
+          "description": "",
+          "values": []
         }
       ]
     },
@@ -140,87 +1131,175 @@
       "name": "salla-modal",
       "attributes": [
         {
-          "name": "icon",
-          "description": "Icon css class, default for types `error` is `sicon-alert-engine`, `success` is `sicon-check-circle2`",
-          "values": [{ "name": "string", "desc": "string" }]
+          "name": "centered",
+          "description": "Align modal content to center, defaults to false",
+          "values": []
+        },
+        {
+          "name": "hasSkeleton",
+          "description": "open the modal on rendering",
+          "values": []
         },
         {
           "name": "iconStyle",
-          "values": [{ "name": "string", "desc": "string" }]
-        },
-        {
-          "name": "imageIcon",
-          "description": "url of an image",
-          "values": [{ "name": "string", "desc": "string" }]
+          "description": "Set the style of the header icon.",
+          "values": [
+            {
+              "name": "error",
+              "description": "Error style"
+            },
+            {
+              "name": "normal",
+              "description": "Normal style"
+            },
+            {
+              "name": "primary",
+              "description": "Primary style"
+            },
+            {
+              "name": "success",
+              "description": "Success style"
+            }
+          ]
         },
         {
           "name": "isClosable",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "description": "Sets the modal to be closable. Defaults to true",
+          "values": []
         },
         {
           "name": "isLoading",
           "description": "Show loading in the middle",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "values": []
         },
         {
           "name": "noPadding",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
-        },
-        {
-          "name": "onModalClosed",
-          "values": [
-            {
-              "name": "((event: CustomEvent<any>) => void)",
-              "desc": "((event: CustomEvent<any>) => void)"
-            }
-          ]
-        },
-        {
-          "name": "onModalOpened",
-          "values": [
-            {
-              "name": "((event: CustomEvent<any>) => void)",
-              "desc": "((event: CustomEvent<any>) => void)"
-            }
-          ]
+          "description": "Avoid padding in the modal body or not, defaults to false",
+          "values": []
         },
         {
           "name": "position",
           "description": "The position of the modal",
           "values": [
-            { "name": "top", "desc": "top" },
-            { "name": "middle", "desc": "middle" },
-            { "name": "bottom", "desc": "bottom" }
+            {
+              "name": "bottom",
+              "description": "Bottom position"
+            },
+            {
+              "name": "middle",
+              "description": "Middle position"
+            },
+            {
+              "name": "top",
+              "description": "Top position"
+            }
           ]
         },
         {
           "name": "subTitle",
-          "values": [{ "name": "string", "desc": "string" }]
+          "description": "Set modal sub title.",
+          "values": []
         },
         {
           "name": "subTitleFirst",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "description": "Show subtitle before the title or not, defaults to false (after the title)",
+          "values": []
         },
         {
           "name": "visible",
-          "description": "Show the modal on rendering",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "description": "open the modal on rendering",
+          "values": []
         },
         {
           "name": "width",
           "description": "The size of the modal",
           "values": [
-            { "name": "xs", "desc": "xs" },
-            { "name": "sm", "desc": "sm" },
-            { "name": "md", "desc": "md" },
-            { "name": "lg", "desc": "lg" },
-            { "name": "xl", "desc": "xl" },
-            { "name": "full", "desc": "full" }
+            {
+              "name": "full",
+              "description": "Full width"
+            },
+            {
+              "name": "lg",
+              "description": "Large width"
+            },
+            {
+              "name": "md",
+              "description": "Medium width"
+            },
+            {
+              "name": "sm",
+              "description": "Small width"
+            },
+            {
+              "name": "xl",
+              "description": "Extra large width"
+            },
+            {
+              "name": "xs",
+              "description": "Extra small width"
+            }
           ]
         }
       ]
     },
-    { "name": "salla-offer-modal" },
+    {
+      "name": "salla-offer-modal",
+      "attributes": []
+    },
+    {
+      "name": "salla-placeholder",
+      "attributes": [
+        {
+          "name": "alignment",
+          "description": "Defines the alignment of contents. Defaults to [left]",
+          "values": [
+            {
+              "name": "center",
+              "description": "Center alignment"
+            },
+            {
+              "name": "left",
+              "description": "Left alignment"
+            },
+            {
+              "name": "right",
+              "description": "Right alignment"
+            }
+          ]
+        },
+        {
+          "name": "icon",
+          "description": "Custom icon to display, defaults to [sicon-inbox]",
+          "values": []
+        },
+        {
+          "name": "iconSize",
+          "description": "The size of the icon. Defaults to [md]",
+          "values": [
+            {
+              "name": "lg",
+              "description": "Large size"
+            },
+            {
+              "name": "md",
+              "description": "Medium size"
+            },
+            {
+              "name": "sm",
+              "description": "Small size"
+            },
+            {
+              "name": "xl",
+              "description": "Extra large size"
+            },
+            {
+              "name": "xs",
+              "description": "Extra small size"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "salla-product-availability",
       "attributes": [
@@ -228,22 +1307,39 @@
           "name": "channels",
           "description": "Notification channels",
           "values": [
-            { "name": "sms", "desc": "sms" },
-            { "name": "mobile", "desc": "mobile" },
-            { "name": "sms,mobile", "desc": "sms,mobile" }
+            {
+              "name": "mobile",
+              "description": "Mobile notification"
+            },
+            {
+              "name": "sms",
+              "description": "SMS notification"
+            },
+            {
+              "name": "sms,mobile",
+              "description": "SMS and mobile notification"
+            }
           ]
         },
         {
           "name": "isSubscribed",
           "description": "is current user already subscribed",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "values": []
         },
         {
           "name": "productId",
           "description": "product id that can visitor subscribe to its availability notification",
-          "values": [{ "name": "number", "desc": "number" }]
+          "values": []
         }
       ]
+    },
+    {
+      "name": "salla-product-size-guide",
+      "attributes": []
+    },
+    {
+      "name": "salla-quantity-input",
+      "attributes": []
     },
     {
       "name": "salla-rating-modal",
@@ -251,7 +1347,66 @@
         {
           "name": "orderId",
           "description": "The order id, to rate on its products & shipping",
-          "values": [{ "name": "number", "desc": "number" }]
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-rating-stars",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "Sets input name.",
+          "values": []
+        },
+        {
+          "name": "size",
+          "description": "Sets the height and width of the component. Defaults to medium.",
+          "values": [
+            {
+              "name": "large",
+              "description": "Large size"
+            },
+            {
+              "name": "medium",
+              "description": "Medium size"
+            },
+            {
+              "name": "mini",
+              "description": "Mini size"
+            },
+            {
+              "name": "small",
+              "description": "Small size"
+            }
+          ]
+        },
+        {
+          "name": "value",
+          "description": "The rating value.",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-scopes",
+      "attributes": [
+        {
+          "name": "searchDisplayLimit",
+          "description": "Dictates when to show the search field",
+          "values": []
+        },
+        {
+          "name": "selection",
+          "description": "Optionally open the modal or enforce the pop-up to the viewer",
+          "values": [
+            {
+              "name": "mandatory"
+            },
+            {
+              "name": "optional"
+            }
+          ]
         }
       ]
     },
@@ -260,15 +1415,280 @@
       "attributes": [
         {
           "name": "height",
-          "values": [{ "name": "number", "desc": "number" }]
+          "description": "Sets the height of the input",
+          "values": []
         },
         {
           "name": "inline",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "description": "Set the component display without modal window. Defaults to false",
+          "values": []
         },
         {
           "name": "oval",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "description": "Adds a border radius to the input. Half of the height.",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-select",
+      "attributes": [
+        {
+          "name": "autocomplete",
+          "description": "Enable multiple item selection",
+          "values": []
+        },
+        {
+          "name": "autofocus",
+          "description": "Enable autofocus",
+          "values": []
+        },
+        {
+          "name": "chips",
+          "description": "Changes display of selections to chips",
+          "values": []
+        },
+        {
+          "name": "clearIcon",
+          "description": "Applied when using clearable and the input is dirty",
+          "values": []
+        },
+        {
+          "name": "clearable",
+          "description": "Add input clear functionality, default icon is sicon-cancel",
+          "values": []
+        },
+        {
+          "name": "color",
+          "description": "Applies specified color to the control.",
+          "values": [
+            {
+              "name": "danger"
+            },
+            {
+              "name": "dark"
+            },
+            {
+              "name": "gray"
+            },
+            {
+              "name": "light"
+            },
+            {
+              "name": "primary"
+            },
+            {
+              "name": "success"
+            },
+            {
+              "name": "warning"
+            }
+          ]
+        },
+        {
+          "name": "disabled",
+          "description": "Disable the input",
+          "values": []
+        },
+        {
+          "name": "flat",
+          "description": "Remove elevation or box shadow.",
+          "values": []
+        },
+        {
+          "name": "hideDetail",
+          "description": "Hides hint if any",
+          "values": []
+        },
+        {
+          "name": "hint",
+          "description": "Hint text",
+          "values": []
+        },
+        {
+          "name": "itemDisabled",
+          "description": "Set property of items’s disabled value",
+          "values": []
+        },
+        {
+          "name": "itemText",
+          "description": "Set property of items’s text value",
+          "values": []
+        },
+        {
+          "name": "itemValue",
+          "description": "Set property of items’s value - must be primitive.  Dot notation is supported.",
+          "values": []
+        },
+        {
+          "name": "items",
+          "description": "Can be an array of objects or array of strings.  When using objects, will look for a text, value and disabled keys.",
+          "values": []
+        },
+        {
+          "name": "label",
+          "description": "Sets label",
+          "values": []
+        },
+        {
+          "name": "loading",
+          "description": "Displays linear progress bar.",
+          "values": []
+        },
+        {
+          "name": "loadingColor",
+          "description": "Specifies which color is applied to the progress bar.",
+          "values": []
+        },
+        {
+          "name": "multiple",
+          "description": "Enable multiple item selection",
+          "values": []
+        },
+        {
+          "name": "persistHint",
+          "description": "Forces hint to always be visible.",
+          "values": []
+        },
+        {
+          "name": "placeholder",
+          "description": "Sets the input’s placeholder text.",
+          "values": []
+        },
+        {
+          "name": "required",
+          "description": "Enable multiple item selection",
+          "values": []
+        },
+        {
+          "name": "returnObject",
+          "description": "Changes the selection behavior to return the object directly  rather than the value specified with item-value",
+          "values": []
+        },
+        {
+          "name": "shape",
+          "description": "Define appearance of the component",
+          "values": [
+            {
+              "name": "outlined"
+            },
+            {
+              "name": "underline"
+            }
+          ]
+        },
+        {
+          "name": "size",
+          "description": "Sizing options",
+          "values": [
+            {
+              "name": "large"
+            },
+            {
+              "name": "normal"
+            },
+            {
+              "name": "small"
+            },
+            {
+              "name": "x-large"
+            },
+            {
+              "name": "x-small"
+            }
+          ]
+        },
+        {
+          "name": "value",
+          "description": "The selected value",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-skeleton",
+      "attributes": [
+        {
+          "name": "height",
+          "description": "Set the skeleton height",
+          "values": []
+        },
+        {
+          "name": "type",
+          "description": "Set the shape type of the skeleton is it circle or normal",
+          "values": [
+            {
+              "name": "circle"
+            },
+            {
+              "name": "normal"
+            }
+          ]
+        },
+        {
+          "name": "width",
+          "description": "Set the skeleton width",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-social-share",
+      "attributes": [
+        {
+          "name": "platforms",
+          "description": "selected platforms to share \\",
+          "values": []
+        },
+        {
+          "name": "url",
+          "description": "page url that will be shared custom \\",
+          "values": []
+        },
+        {
+          "name": "urlName",
+          "description": "page url name that will be shared custom \\",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-swiper",
+      "attributes": [
+        {
+          "name": "itemPerView",
+          "description": "Number of slides per view (slides visible at the same time on slider's container).",
+          "values": []
+        },
+        {
+          "name": "loop",
+          "description": "Set to true to enable continuous loop mode. Defaults to false.",
+          "values": []
+        },
+        {
+          "name": "spaceBetweenItems",
+          "description": "Distance between slide items in px. Defaults to 8px",
+          "values": []
+        },
+        {
+          "name": "speed",
+          "description": "Duration of transition between slides (in ms). Defaults to 300ms.",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-tabs",
+      "attributes": [
+        {
+          "name": "backgroundColor",
+          "description": "Background color",
+          "values": []
+        },
+        {
+          "name": "vertical",
+          "description": "Align tabs vertically.",
+          "values": []
         }
       ]
     },
@@ -278,63 +1698,66 @@
         {
           "name": "countryCode",
           "description": "Current country_code",
-          "values": [{ "name": "string", "desc": "string" }]
+          "values": []
         },
         {
-          "name": "countryKey",
-          "values": [{ "name": "string", "desc": "string" }]
+          "name": "name",
+          "description": "input name",
+          "values": []
         },
         {
-          "name": "mobile",
+          "name": "phone",
           "description": "Current mobile number",
-          "values": [{ "name": "string", "desc": "string" }]
-        },
-        {
-          "name": "onEnterClicked",
-          "values": [
-            {
-              "name": "((event: CustomEvent<any>) => void)",
-              "desc": "((event: CustomEvent<any>) => void)"
-            }
-          ]
+          "values": []
         }
       ]
     },
     {
-      "name": "salla-verify-modal",
+      "name": "salla-user-settings",
+      "attributes": [
+        {
+          "name": "isNotifiable",
+          "description": "",
+          "values": []
+        }
+      ]
+    },
+    {
+      "name": "salla-verify",
       "attributes": [
         {
           "name": "autoReload",
           "description": "should auto reloading the page after success verification",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "values": []
         },
         {
-          "name": "by",
-          "description": "Verifying method",
-          "values": [
-            { "name": "sms", "desc": "sms" },
-            { "name": "email", "desc": "email" }
-          ]
-        },
-        {
-          "name": "onVerified",
-          "description": "Event when success verification",
+          "name": "display",
+          "description": "Should render component without modal",
           "values": [
             {
-              "name": "((event: CustomEvent<any>) => void)",
-              "desc": "((event: CustomEvent<any>) => void)"
+              "name": "inline"
+            },
+            {
+              "name": "modal"
             }
           ]
         },
         {
-          "name": "url",
-          "description": "Submitting url, default will use salla api auth: `salla.api.auth.verify`",
-          "values": [{ "name": "string", "desc": "string" }]
+          "name": "supportWebAuth",
+          "description": "Once the api verify success, it will be login the customer in web pages",
+          "values": []
         },
         {
-          "name": "withoutModal",
-          "description": "Should render component without modal",
-          "values": [{ "name": "boolean", "desc": "boolean" }]
+          "name": "type",
+          "description": "Verifying method",
+          "values": [
+            {
+              "name": "email"
+            },
+            {
+              "name": "mobile"
+            }
+          ]
         }
       ]
     }
