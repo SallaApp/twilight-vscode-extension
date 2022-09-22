@@ -1,6 +1,6 @@
 {
   "name": "twilight-vscode-extension",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "The intelligent tooling to use Salla's Twilight Theme Engine in your VSCode editor.",
   "author": "Salla App (https://github.com/SallaApp)",
   "displayName": "Twilight Themes AutoComplete",
