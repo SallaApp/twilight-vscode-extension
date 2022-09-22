@@ -13,3 +13,4 @@ scripts/
 yarn-error.log
 .fuse_hidden*
 rollup.config.js
+node_modules

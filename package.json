@@ -342,10 +342,10 @@
   },
   "scripts": {
     "snippets-generate": "node ./scripts/snippets.autogenerate.js",
-    "vscode:prepublish": "sudo yarn run build",
-    "package": "sudo vsce package --yarn",
-    "publish": "sudo vsce publish --allow-star-activation ",
-    "build": "sudo yarn run snippets-generate &&  rollup -c"
+    "vscode:prepublish": "yarn run build",
+    "package": "vsce package --yarn",
+    "publish": "vsce publish --allow-star-activation ",
+    "build": "yarn run snippets-generate &&  rollup -c"
   },
   "devDependencies": {
     "@types/mocha": "^9.1.1",
