@@ -3,7 +3,7 @@
 <br />
 <div align="center"> 
   <a href="https://salla.dev"> 
-    <img src="https://salla.dev/wp-content/themes/salla-portal/dist/img/salla-logo.png" alt="Logo" width="80" height="80"> 
+    <img src="https://salla.dev/wp-content/uploads/2023/03/1-Light.png" alt="Logo"> 
   </a>
   <h1 align="center">Twilight VSCode Extension</h1>
   <p align="center">
@@ -13,7 +13,7 @@
     <br />
     <br />
     <a href="https://github.com/SallaApp/twilight-vscode-extension/issues/new">Report Bug</a> · 
-    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a> . <a href="https://docs.salla.dev/docs/twilight-themes-documentation">Official Documentation</a> 
+    <a href="https://github.com/SallaApp/twilight-vscode-extension/discussions/new">Request Feature</a> . <a href="https://t.me/salladev">&lt;/Salla Developers&gt;</a> . <a href="https://docs.salla.dev/?nav=01HNFTD5Y5ESFQS3P9MJ0721VM">Official Documentation</a> 
   </p>
 </div>
 
@@ -58,13 +58,13 @@ Twilight VSCode extension can be easily installed straight from the [Visual Stud
 
 Salla's twilight VSCode extension has a range of rich features that includes:
 
-- **Intellesense suggestions for the JS Web Components:** When start writing any of the supported JS Web Component in the VSCode editor, the intelliSense feature will start showing a list of all the available components.
+- **Intellesense suggestions for the JS Web Components:** When start writing any of the supported JS Web Component in the VSCode editor, the IntelliSense feature will start showing a list of all the available components.
 
 - **Syntax and Code Auto-completion:** Writing code faster with fewer keystrokes result in saving time. That said, typos can be corrected with the autocomplete feature as well as enhancing consistency and compatibility based on the existing code and development style.
 
 ## Support
 
-The team is always here to help you. Happen to face an issue? Want to report a bug? You can submit one here on Github using the [Issue Tracker](https://github.com/SallaApp/twilight-vscode-extension/issues/new). If you still have any questions, please contact us via the [Telegram Bot](https://t.me/SallaSupportBot) or join in the Global Developer Community on [Telegram](https://t.me/salladev).
+The team is always here to help you. Happen to face an issue? Want to report a bug? You can submit one here on GitHub using the [Issue Tracker](https://github.com/SallaApp/twilight-vscode-extension/issues/new). If you still have any questions, please contact us by joining the Global Developer Community on [Telegram](https://t.me/salladev) or via [Support Email](mailto:support@salla.dev)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
